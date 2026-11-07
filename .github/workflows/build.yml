@@ -3,30 +3,34 @@ name: Miami 2022 WebGL Build
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
+    branches: [main]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
+      - name: Checkout project
         uses: actions/checkout@v4
         with:
           lfs: true
 
-      - name: Build WebGL
+      - name: Build with Miami GjBuild
         uses: game-ci/unity-builder@v4
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          GJBUILD_OUTPUT: build/WebGL
+          GJBUILD_RESULT: build/gjbuild-result.txt
         with:
+          unityVersion: 2022.3.62f3
           targetPlatform: WebGL
+          customParameters: -executeMethod GjBuild.WebGL
 
-      - name: Upload Build
+      - name: Upload WebGL build
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: Miami2022-WebGL
           path: build
+          if-no-files-found: warn

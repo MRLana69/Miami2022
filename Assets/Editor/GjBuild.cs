@@ -5,13 +5,17 @@ using UnityEditor.Build.Reporting;
 using UnityEngine;
 using UnityEngine.Rendering;
 
-// Build WebGL sem clicar: por linha de comando (-executeMethod GjBuild.WebGL) ou, com o editor aberto,
-// criando o arquivo E:/UnityDL/build.trigger (o editor confere a cada segundo).
+// Build WebGL: execute -executeMethod GjBuild.WebGL. O modo por arquivo-gatilho é opcional
+// e usa a variável de ambiente GJBUILD_TRIGGER.
 [InitializeOnLoad]
 public static class GjBuild
 {
-	const string Trigger = "E:/UnityDL/build.trigger";
-	const string Output = "C:/Users/Mauro/Desktop/miamitreino";
+	// Caminhos configuráveis por variáveis de ambiente para funcionar no Windows e no GitHub Actions/Linux.
+	static string Trigger => System.Environment.GetEnvironmentVariable("GJBUILD_TRIGGER");
+	static string Output => System.Environment.GetEnvironmentVariable("GJBUILD_OUTPUT")
+		?? Path.Combine(Directory.GetCurrentDirectory(), "build", "WebGL");
+	static string ResultFile => System.Environment.GetEnvironmentVariable("GJBUILD_RESULT")
+		?? Path.Combine(Directory.GetCurrentDirectory(), "build", "gjbuild-result.txt");
 	static double _next;
 
 	static GjBuild()
@@ -23,7 +27,7 @@ public static class GjBuild
 	{
 		if (EditorApplication.timeSinceStartup < _next) return;
 		_next = EditorApplication.timeSinceStartup + 1;
-		if (!File.Exists(Trigger) || BuildPipeline.isBuildingPlayer || EditorApplication.isCompiling) return;
+		if (string.IsNullOrEmpty(Trigger) || !File.Exists(Trigger) || BuildPipeline.isBuildingPlayer || EditorApplication.isCompiling) return;
 		bool dev = File.ReadAllText(Trigger).Contains("dev");
 		File.Delete(Trigger);
 		EditorApplication.delayCall += () => Run(dev, false);
@@ -53,30 +57,6 @@ public static class GjBuild
 		AssetDatabase.SaveAssets();
 	}
 
-	// Scripts do site (unlock-all.js e infinite-save.js): copia para o build e coloca na página antes do jogo
-	static void AddSiteScripts()
-	{
-		const string source = "E:/UnityDL/site-js";
-		string[] files = { "unlock-all.js", "infinite-save.js", "gj-graphics.js" };
-		string tags = "";
-		foreach (string name in files)
-		{
-			if (!File.Exists(Path.Combine(source, name))) continue;
-			File.Copy(Path.Combine(source, name), Path.Combine(Output, name), true);
-			tags += "    <script src=\"" + name + "\"></script>\n";
-		}
-		string page = Path.Combine(Output, "index.html");
-		string html = File.ReadAllText(page);
-		if (tags.Length > 0 && !html.Contains("unlock-all.js"))
-			html = html.Replace("</head>", tags + "  </head>");
-		// Qualidade Gráfica: quem define a resolução do canvas é o gj-graphics.js (na hora, sem recarregar)
-		// FPS: sem anti-aliasing e pedindo a placa de vídeo forte (notebooks com duas placas)
-		const string manual = "config.matchWebGLToCanvasSize = false;\n        " +
-			"config.webglContextAttributes = { antialias: false, preserveDrawingBuffer: false, powerPreference: \"high-performance\" };\n        ";
-		if (!html.Contains("matchWebGLToCanvasSize = false;\n"))
-			html = html.Replace("createUnityInstance(canvas, config,", manual + "createUnityInstance(canvas, config,");
-		File.WriteAllText(page, html);
-	}
 
 	static void Run(bool dev, bool exit)
 	{
@@ -110,6 +90,10 @@ public static class GjBuild
 		IncludeProjectShaders();
 
 		var scenes = EditorBuildSettings.scenes.Where(s => s.enabled).Select(s => s.path).ToArray();
+		if (scenes.Length == 0)
+			throw new System.InvalidOperationException("GjBuild: nenhuma cena está habilitada em Build Settings.");
+		Directory.CreateDirectory(Output);
+		Directory.CreateDirectory(Path.GetDirectoryName(ResultFile));
 		var report = BuildPipeline.BuildPlayer(new BuildPlayerOptions
 		{
 			scenes = scenes,
@@ -120,7 +104,7 @@ public static class GjBuild
 		// os scripts do site agora vêm do template (Assets/WebGLTemplates/GjMiami)
 		string result = "GJBUILD RESULT: " + report.summary.result + " errors=" + report.summary.totalErrors + " dev=" + dev;
 		Debug.Log(result);
-		File.WriteAllText("E:/UnityDL/build.result", result + "\n" + System.DateTime.Now);
+		File.WriteAllText(ResultFile, result + "\n" + System.DateTime.Now);
 		if (exit) EditorApplication.Exit(report.summary.result == BuildResult.Succeeded ? 0 : 1);
 	}
 }
