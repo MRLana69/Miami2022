@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: BenchmarkRoute
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f725a5701eb3426a258347bacf910f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _deterministicRouteBuilder:
+    _routeHeight: 2
+    _midSectionsCountLimited: 0
+    _midSectionsCountTarget: 1
+    _startSectionPrefabs:
+    - TransitionRouteType: 0
+      Section: {fileID: 114724804207875695, guid: 8f0f245f974c37940a820f269b3f64ce, type: 2}
+    _midSectionPrefabs:
+      _weightedPrefabs: []
+    _midSectionGroupPrefabs:
+    - {fileID: 114724804207875695, guid: fb92f1d2f78d9aa459f116a3527d1d18, type: 2}
+    - {fileID: 114724804207875695, guid: f589e9a53935e0543b08e1050ba1c0f6, type: 2}
+    - {fileID: 114724804207875695, guid: 26214670b15a4ad49b23999a437b8015, type: 2}
+    - {fileID: 114724804207875695, guid: b431f864337cb174aa8ba3e0423cf32d, type: 2}
+    _endSectionPrefabs: []
+    _minDistanceBetweenSectionRepeats: 0
+    _fallbackSection: {fileID: 114724804207875695, guid: cbd693523f68e28438d6cd5b260a7ae7, type: 2}
+    _tutorialSection: {fileID: 114724804207875695, guid: f0515a890c04ad944ad00242ca069335, type: 2}
+    _environmentRepeatSettings:
+    - EnvironmentKind:
+        _type: 1
+        _density: 1
+      RepeatDistance: 1980
+    - EnvironmentKind:
+        _type: 1
+        _density: 2
+      RepeatDistance: 1980
+    - EnvironmentKind:
+        _type: 1
+        _density: 4
+      RepeatDistance: 1980
+    - EnvironmentKind:
+        _type: 2
+        _density: 0
+      RepeatDistance: 1980
+    _jetpackEndSection: {fileID: 114724804207875695, guid: c6970e19704dd17469ae95e8f428601a, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

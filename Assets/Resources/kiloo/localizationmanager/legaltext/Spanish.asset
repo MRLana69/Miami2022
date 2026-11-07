@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3729d31dbb62fc5fa1c1acf9261527f2, type: 3}
+  m_Name: Spanish
+  m_EditorClassIdentifier:
+  id: Spanish
+  _localeId: es-ES
+  affectedLocales:
+  - es-ES
+  _pasteLocaleList:
+  _pasteTermValues:
+  terms:
+  - key: AgeRestrictionTitle
+    value: "¿Cuándo naciste?\r"
+  - key: AgeRestrictionOk
+    value: "Vale\r"
+  - key: ConsentAffirmation
+    value: "Por la presente, doy mi consentimiento para que Kiloo divulgue el ID de publicidad de mi dispositivo a empresas de redes de publicidad (ver a continuación) con el fin de adaptar los anuncios del juego a mis preferencias personales.\r"
+  - key: ConsentDetails
+    value: "Al marcar la casilla de arriba, comprendo que podré revocar mi consentimiento en cualquier momento, desde la sección de Ajustes del juego, y que puedo encontrar más información sobre el procesamiento de Kiloo de mis datos personales y la identidad de las empresas de redes de publicidad en la {0}Política de privacidad de Kiloo{1}.\r"
+  - key: ConsentAcceptUnchecked
+    value: "ACEPTO\r"
+  - key: ConsentAcceptChecked
+    value: "ACEPTADO\r"
+  - key: ConsentOK
+    value: "VALE\r"
+  - key: WithdrawConsentTitle
+    value: "¿Revocar consentimiento?\r"
+  - key: WithdrawConsentBody
+    value: "Has dado tu consentimiento para que Kiloo divulgue el ID de publicidad de tu dispositivo a las empresas de redes de publicidad con el fin de adaptar los anuncios del juego a tus preferencias personales.\r"
+  - key: WithdrawConsentRequirement
+    value: "Ten en cuenta que, si revocas tu consentimiento, tu licencia de usuario para usar la aplicación cesará automáticamente.\r"
+  - key: WithdrawConsentVerification
+    value: "¿Seguro que quieres revocar tu consentimiento?\r"
+  - key: WithdrawConsentYes
+    value: "Sí\r"
+  - key: WithdrawConsentNo
+    value: No

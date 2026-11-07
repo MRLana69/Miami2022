@@ -1,0 +1,269 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4724804207875695}
+  - component: {fileID: 33618682377417806}
+  - component: {fileID: 23703437598541787}
+  - component: {fileID: 114884547391421755}
+  m_Layer: 0
+  m_Name: Daredevil
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1730242686860875
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4099118695303065}
+  - component: {fileID: 33243736805655561}
+  - component: {fileID: 23061268324235159}
+  - component: {fileID: 111587765826080250}
+  m_Layer: 0
+  m_Name: daredevil_thruster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4724804207875695
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4099118695303065}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33618682377417806
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Mesh: {fileID: 4300000, guid: 4125c47619626ce4e96dba2cef07b7a2, type: 2}
+--- !u!23 &23703437598541787
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: d684c3086509c2b4eb91265004a1d014, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114884547391421755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7085b527947a953c8305086568d1d4b0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  defaultHoverboardAnimation: {fileID: 7400000, guid: 2abdc88d6c7a0024e8e03f0845e6ae1b, type: 2}
+  runAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 20c0301d21c09244ba43cb3cd44d4083, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: e172c4e6c284c4641b08f62ea8ab1ccb, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  landAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 44a8ef0cae4f07e40aafdd2bec8edf9b, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  jumpAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 5c1d5d9077d693140b93ca48f423062f, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 1e45ad30cfd6b4b4d9c0cbcfa75919ed, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 3cfcfc0f834cf444294b6105513e9a6d, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 5ada0574fe5440c468b18839501c7b7a, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: cace623ffbf6b1c4ea07c2c712993e77, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: f5e634cc4fe40974fb41af96986627df, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  hangtimeAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 5c1d5d9077d693140b93ca48f423062f, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 1e45ad30cfd6b4b4d9c0cbcfa75919ed, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 3cfcfc0f834cf444294b6105513e9a6d, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: 5ada0574fe5440c468b18839501c7b7a, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: cace623ffbf6b1c4ea07c2c712993e77, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: f5e634cc4fe40974fb41af96986627df, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  rollAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 84fe356388e509441a2164fc8db301dd, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  dodgeLeftAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: ae333ebe92aa5104b837b0c9d506e6ea, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  dodgeRightAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 5bc4b7d6c8b932948b938ba5b366766d, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  grindAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: dac7a31c595435646a2792aadb48797c, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: eb73dc10dc577cb4e992ac76e3b2087e, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  grindLandAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: ed2123ff4250e364a86227f331b4ca5f, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  - characterAnimationClip: {fileID: 7400000, guid: ba7c7aa998b4c0e45bd962d8bc835a4b, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  getOnBoardAnimations:
+  - characterAnimationClip: {fileID: 7400000, guid: 2b6039479fd0ce04d91af0c30e11fe67, type: 2}
+    hoverboardAnimationClip: {fileID: 0}
+  abilityAnimationLists:
+  - ability: 0
+    prio: 0
+    defaultHoverboardAnimation: {fileID: 0}
+    runAnimations: []
+    landAnimations: []
+    jumpAnimations: []
+    hangtimeAnimations: []
+    rollAnimations: []
+    dodgeLeftAnimations: []
+    dodgeRightAnimations: []
+    grindAnimations: []
+    grindLandAnimations: []
+    getOnBoardAnimations: []
+--- !u!4 &4099118695303065
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.99044, y: 0.7759729, z: 0.007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4724804207875695}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33243736805655561
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Mesh: {fileID: 4300000, guid: fd9275897345725458cf16d3b39391a6, type: 2}
+--- !u!23 &23061268324235159
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 76865940ec0419449b581dc06eecf463, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!111 &111587765826080250
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1730242686860875}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: f15b83271df54ef4b9ecbc580cb78409, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: f15b83271df54ef4b9ecbc580cb78409, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

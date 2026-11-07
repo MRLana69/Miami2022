@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: LogicAssetsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ba7514f80429a211de8ca8760307c56, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  obstacles:
+    basicObstacles:
+    - Type: 0
+      Prefab: {fileID: 0}
+    - Type: 1
+      Prefab: {fileID: 0}
+    - Type: 2
+      Prefab: {fileID: 0}
+    - Type: 3
+      Prefab: {fileID: 0}
+    - Type: 4
+      Prefab: {fileID: 0}
+    basicObstaclesWithCoins:
+    - Type: 0
+      Prefab: {fileID: 0}
+    - Type: 1
+      Prefab: {fileID: 0}
+    - Type: 2
+      Prefab: {fileID: 0}
+    - Type: 3
+      Prefab: {fileID: 0}
+    - Type: 4
+      Prefab: {fileID: 0}
+    blockerObstacles:
+    - Type: 1
+      Prefab: {fileID: 0}
+    - Type: 4
+      Prefab: {fileID: 0}
+    - Type: 2
+      Prefab: {fileID: 0}
+    blockerObstaclesWithCoins:
+    - Type: 1
+      Prefab: {fileID: 0}
+    - Type: 4
+      Prefab: {fileID: 0}
+    - Type: 2
+      Prefab: {fileID: 0}
+    environmentObstacles:
+    - Type: 1
+      Prefab: {fileID: 0}
+    - Type: 2
+      Prefab: {fileID: 0}
+    - Type: 4
+      Prefab: {fileID: 0}
+    environmentObstaclesExtended:
+    - Type: 2
+      Prefab: {fileID: 0}
+  environment:
+    station:
+      Start: {fileID: 4618682377417806, guid: 6d0d079fcfabf6645b1f5f03d4b57b8c, type: 2}
+      Mid: {fileID: 4618682377417806, guid: a11f1ad111c3a564faa033d771742c6e, type: 2}
+      End: {fileID: 4618682377417806, guid: ecbafd76881b58b4096113a76e523ed0, type: 2}
+    tube:
+      Start: {fileID: 4589667821646929, guid: 49139986a4c8d9b4fbe929ba1fb4bfa3, type: 2}
+      Mid: {fileID: 4589667821646929, guid: aa14ffa5726d7304583f6e7e195118fe, type: 2}
+      End: {fileID: 4044625135789424, guid: 65f4254ab6a6bf34d9ee2b1ef80bd597, type: 2}
+    pillars:
+      Start: {fileID: 4618682377417806, guid: c32e6aa1698011a4f919d952fcba8c22, type: 2}
+      Mid: {fileID: 4618682377417806, guid: 4ef611d44fe71a64aa275b927f30c828, type: 2}
+      End: {fileID: 4618682377417806, guid: 2312f9e7e0eaded4684c30624a36b18d, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

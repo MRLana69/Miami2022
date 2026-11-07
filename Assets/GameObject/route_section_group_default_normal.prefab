@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: route_section_group_default_normal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c311ae1bb29dd99b4a345c44f86ac259, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _routeSections:
+  - _name: route_section_default_ramp_1
+    Weight: 10
+    Prefab: {fileID: 114724804207875695, guid: b3f327bbc2e1ea4468a2de7f8aa52288, type: 2}
+  - _name: route_section_default_epic
+    Weight: 20
+    Prefab: {fileID: 114724804207875695, guid: 37f0b31ea726bc1468ab963980f3a464, type: 2}
+  - _name: route_section_default_1_track
+    Weight: 30
+    Prefab: {fileID: 114724804207875695, guid: 360f64928ff84d64ea55bcbe95c884f7, type: 2}
+  - _name: route_section_default_2_tracks
+    Weight: 10
+    Prefab: {fileID: 114724804207875695, guid: 92625ec5667470c41bcc9f542895990c, type: 2}
+  - _name: route_section_default_train_tops_moving
+    Weight: 10
+    Prefab: {fileID: 114724804207875695, guid: 7f77dbf0d1547834ab172677f37d6d7a, type: 2}
+  - _name: route_section_default_train_tops_moving_combined
+    Weight: 10
+    Prefab: {fileID: 114724804207875695, guid: e41d91f1f8cb12b4fa8d63eb94022449, type: 2}
+  - _name: route_section_default_train_tops_moving_multiple
+    Weight: 10
+    Prefab: {fileID: 114724804207875695, guid: 72c542c254fa58c4faccf376996ff180, type: 2}
+  - _name: route_section_default_tunnel
+    Weight: 30
+    Prefab: {fileID: 114724804207875695, guid: 3f6367acd901daa4b8ec872052de1c39, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

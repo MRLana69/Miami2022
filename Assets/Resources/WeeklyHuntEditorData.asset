@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae198dd353d4f8d27f87b498ded74927, type: 3}
+  m_Name: WeeklyHuntEditorData
+  m_EditorClassIdentifier:
+  periodData:
+  - twoWeekPeriod: 0
+    itemsToCollect: 30
+    hiddenUntilUnlocked: 0
+    periodTitleSuffix: 1
+    serializedPeriodStartDate: 1559088000
+    serializedPeriodEndDate: 1562191200
+    mainPrize:
+      amount: 5
+      celebrationRewardOrigin: 3
+      rewardType: 7
+      upgradeType: 0
+      characterId: 0
+      boardId: 62
+      trophyType: 0
+    alternatePrize:
+      amount: 15
+      celebrationRewardOrigin: 3
+      rewardType: 6
+      upgradeType: 0
+      characterId: 0
+      boardId: 0
+      trophyType: 0
+    hasAlternatePrize: 1
+  - twoWeekPeriod: 0
+    itemsToCollect: 25
+    hiddenUntilUnlocked: 0
+    periodTitleSuffix: 2
+    serializedPeriodStartDate: 1562191200
+    serializedPeriodEndDate: 1562796000
+    mainPrize:
+      amount: 7
+      celebrationRewardOrigin: 3
+      rewardType: 6
+      upgradeType: 0
+      characterId: 0
+      boardId: 0
+      trophyType: 0
+    alternatePrize:
+      amount: 10000
+      celebrationRewardOrigin: 3
+      rewardType: 1
+      upgradeType: 0
+      characterId: 0
+      boardId: 0
+      trophyType: 0
+    hasAlternatePrize: 0
+  - twoWeekPeriod: 0
+    itemsToCollect: 10
+    hiddenUntilUnlocked: 0
+    periodTitleSuffix: 3
+    serializedPeriodStartDate: 1562796000
+    serializedPeriodEndDate: 1563400800
+    mainPrize:
+      amount: 2
+      celebrationRewardOrigin: 3
+      rewardType: 2
+      upgradeType: 15
+      characterId: 0
+      boardId: 0
+      trophyType: 0
+    alternatePrize:
+      amount: 0
+      celebrationRewardOrigin: 0
+      rewardType: 0
+      upgradeType: 0
+      characterId: 0
+      boardId: 0
+      trophyType: 0
+    hasAlternatePrize: 0

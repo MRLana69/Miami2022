@@ -1,0 +1,3015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!104 &56
+RenderSettings:
+  serializedVersion: 9
+  m_ObjectHideFlags: 0
+  m_Fog: 0
+  m_FogColor: {r: 0.7372549, g: 0.9019608, b: 0.9647059, a: 1}
+  m_FogMode: 1
+  m_FogDensity: 1
+  m_LinearFogStart: 200
+  m_LinearFogEnd: 700
+  m_AmbientSkyColor: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
+  m_AmbientEquatorColor: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
+  m_AmbientGroundColor: {r: 0.40392157, g: 0.40392157, b: 0.40392157, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &57
+LightmapSettings:
+  serializedVersion: 11
+  m_ObjectHideFlags: 0
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 112000000, guid: 951c6ceff869eb84d850d3032ad63215, type: 2}
+  m_UseShadowmask: 0
+--- !u!1 &1
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 26}
+  - component: {fileID: 62}
+  m_Layer: 27
+  m_Name: UserName
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &2
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 27}
+  - component: {fileID: 63}
+  m_Layer: 0
+  m_Name: AnalyticsIntegration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &3
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 28}
+  - component: {fileID: 64}
+  m_Layer: 0
+  m_Name: _Root/Manual/Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &4
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 29}
+  - component: {fileID: 65}
+  m_Layer: 0
+  m_Name: LoadLevelUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &5
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 30}
+  - component: {fileID: 66}
+  m_Layer: 0
+  m_Name: _Root/Dynamic/Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &6
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 31}
+  - component: {fileID: 59}
+  m_Layer: 0
+  m_Name: Factories
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &7
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 32}
+  - component: {fileID: 67}
+  m_Layer: 27
+  m_Name: BG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &8
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 33}
+  - component: {fileID: 60}
+  - component: {fileID: 84}
+  - component: {fileID: 68}
+  - component: {fileID: 54}
+  m_Layer: 27
+  m_Name: 1UI Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &9
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 34}
+  - component: {fileID: 69}
+  m_Layer: 27
+  m_Name: TitleBG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &10
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 35}
+  - component: {fileID: 58}
+  m_Layer: 0
+  m_Name: HouseKeeper
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &11
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 36}
+  - component: {fileID: 70}
+  m_Layer: 0
+  m_Name: _Root/Dynamic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &12
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 37}
+  - component: {fileID: 51}
+  - component: {fileID: 61}
+  m_Layer: 27
+  m_Name: 1normal 2D Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &13
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 38}
+  - component: {fileID: 71}
+  m_Layer: 27
+  m_Name: FG
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &14
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 39}
+  - component: {fileID: 72}
+  m_Layer: 27
+  m_Name: background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &15
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 40}
+  - component: {fileID: 83}
+  - component: {fileID: 73}
+  m_Layer: 27
+  m_Name: LoadProgress
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &16
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 41}
+  - component: {fileID: 74}
+  m_Layer: 27
+  m_Name: TipLayout
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &17
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 42}
+  - component: {fileID: 75}
+  m_Layer: 27
+  m_Name: LoadingText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &18
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 43}
+  - component: {fileID: 85}
+  - component: {fileID: 55}
+  m_Layer: 27
+  m_Name: LoadBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &19
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 44}
+  - component: {fileID: 76}
+  m_Layer: 27
+  m_Name: Inlay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &20
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 45}
+  - component: {fileID: 77}
+  m_Layer: 27
+  m_Name: TitleTip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &21
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 46}
+  - component: {fileID: 78}
+  m_Layer: 27
+  m_Name: Tip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &22
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 47}
+  - component: {fileID: 79}
+  m_Layer: 27
+  m_Name: TopOutline
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &23
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 48}
+  - component: {fileID: 80}
+  m_Layer: 0
+  m_Name: _Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &24
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 49}
+  - component: {fileID: 53}
+  - component: {fileID: 52}
+  - component: {fileID: 81}
+  m_Layer: 27
+  m_Name: Splash
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &25
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - component: {fileID: 50}
+  - component: {fileID: 82}
+  m_Layer: 0
+  m_Name: _Root/Manual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &26
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -31.000011, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 41}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &27
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &28
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 50}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &29
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 49}
+  - {fileID: 33}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &30
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 36}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &31
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &32
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -89.5, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &33
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.004166667, y: 0.004166667, z: 0.004166667}
+  m_Children:
+  - {fileID: 37}
+  m_Father: {fileID: 29}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &34
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 357, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 45}
+  m_Father: {fileID: 39}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &35
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &36
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 30}
+  m_Father: {fileID: 48}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &37
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 39}
+  m_Father: {fileID: 33}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &38
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &39
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 14}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -447, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 47}
+  - {fileID: 34}
+  - {fileID: 41}
+  - {fileID: 43}
+  m_Father: {fileID: 37}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &40
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 125.28667, y: 233.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 32}
+  - {fileID: 38}
+  - {fileID: 42}
+  - {fileID: 44}
+  m_Father: {fileID: 43}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &41
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 296.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 46}
+  - {fileID: 26}
+  m_Father: {fileID: 39}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &42
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &43
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -124.78667, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 40}
+  m_Father: {fileID: 39}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &44
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.0008, y: 1.0008, z: 1.0008}
+  m_Children: []
+  m_Father: {fileID: 40}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &45
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 34}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &46
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 8.999987, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 41}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &47
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 22}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 396, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 39}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &48
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 36}
+  - {fileID: 50}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!4 &49
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 24}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalScale: {x: 1.5, y: 3.248, z: 1}
+  m_Children: []
+  m_Father: {fileID: 29}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &50
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 25}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 28}
+  m_Father: {fileID: 48}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &51
+Camera:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_Enabled: 1
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.07462686, g: 0.96117336, b: 1, a: 1}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: -5
+  far clip plane: 5
+  field of view: 60
+  orthographic: 1
+  orthographic size: 1
+  m_Depth: 10
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 134217728
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!23 &52
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 24}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: 47e8d64fb782c734b8bbbd3accaf2a2d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &53
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 24}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54
+Rigidbody:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &55
+Rigidbody:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &58
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 10}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2858223b818bc4e66b5f2d96e5489ce1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &59
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 6}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc1389ae1e8ebd1622014c58aa3bf3d1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _assetBundleMappings:
+  - CharacterTypeName: fresh
+    _serializedCharacter: fresh
+    DefaultAssetBundleNames:
+    - fresh
+    - fresh_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - fresh_0
+      - fresh_tex_low
+    - Strings:
+      - fresh_1
+      - fresh_outfit2_tex_low
+    - Strings:
+      - fresh_2
+      - fresh_outfit1_tex_low
+  - CharacterTypeName: tag
+    _serializedCharacter: tag
+    DefaultAssetBundleNames:
+    - tag
+    - tag_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - tag_0
+      - tagbot_tex_low
+    - Strings:
+      - tag_1
+      - tagbot_outfit1_tex_low
+    - Strings:
+      - tag_2
+      - tagbot_outfit2_tex_low
+  - CharacterTypeName: frank
+    _serializedCharacter: frank
+    DefaultAssetBundleNames:
+    - frank
+    - frank_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - frank_0
+      - frank_tex_low
+    - Strings:
+      - frank_1
+      - frank_tex_low
+      - frank_outfit1_tex_low
+    - Strings:
+      - frank_2
+      - frank_tex_low
+      - frank_outfit2_tex_low
+  - CharacterTypeName: facebookRewardCharacter01
+    _serializedCharacter: facebookRewardCharacter01
+    DefaultAssetBundleNames:
+    - facebookrewardcharacter01
+    - facebookrewardcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - facebookrewardcharacter01_0
+      - facebook_tex_low
+  - CharacterTypeName: king
+    _serializedCharacter: king
+    DefaultAssetBundleNames:
+    - king
+    - king_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - king_0
+      - king_tex_low
+    - Strings:
+      - king_1
+      - king_outfit1_tex_low
+    - Strings:
+      - king_2
+      - king_outfit2_tex_low
+  - CharacterTypeName: seoulCharacter01
+    _serializedCharacter: seoulCharacter01
+    DefaultAssetBundleNames:
+    - seoulcharacter01
+    - seoulcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - seoulcharacter01_0
+      - seoul_tex_low
+    - Strings:
+      - seoulcharacter01_1
+      - seoul_outfit1_tex_low
+    - Strings:
+      - seoulcharacter01_2
+      - seoul_outfit2_tex_low
+  - CharacterTypeName: moscowCharacter01
+    _serializedCharacter: moscowCharacter01
+    DefaultAssetBundleNames:
+    - moscowcharacter01
+    - moscowcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - moscowcharacter01_0
+      - moscow_tex_low
+  - CharacterTypeName: transylvaniaCharacter01
+    _serializedCharacter: transylvaniaCharacter01
+    DefaultAssetBundleNames:
+    - transylvaniacharacter01
+    - transylvaniacharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - transylvaniacharacter01_0
+      - transylvania_tex_low
+    - Strings:
+      - transylvaniacharacter01_1
+      - transylvania_outfit1_tex_low
+    - Strings:
+      - transylvaniacharacter01_2
+      - transylvania_outfit2_tex_low
+  - CharacterTypeName: losangelesCharacter01
+    _serializedCharacter: losangelesCharacter01
+    DefaultAssetBundleNames:
+    - losangelescharacter01
+    - losangelescharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - losangelescharacter01_0
+      - losangeles_tex_low
+    - Strings:
+      - losangelescharacter01_1
+      - losangeles_outfit1_tex_low
+    - Strings:
+      - losangelescharacter01_2
+      - losangeles_outfit2_tex_low
+  - CharacterTypeName: cairoCharacter01
+    _serializedCharacter: cairoCharacter01
+    DefaultAssetBundleNames:
+    - cairocharacter01
+    - cairocharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - cairocharacter01_0
+      - cairo_tex_low
+    - Strings:
+      - cairocharacter01_1
+      - cairo_outfit1_tex_low
+    - Strings:
+      - cairocharacter01_2
+      - cairo_outfit2_tex_low
+      - cairo_outfit1_tex_low
+  - CharacterTypeName: princek
+    _serializedCharacter: princek
+    DefaultAssetBundleNames:
+    - princek
+    - princek_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - princek_0
+      - princek_tex_low
+    - Strings:
+      - princek_1
+      - princek_outfit1_tex_low
+    - Strings:
+      - princek_2
+      - princek_outfit2_tex_low
+  - CharacterTypeName: tricky
+    _serializedCharacter: tricky
+    DefaultAssetBundleNames:
+    - tricky
+    - tricky_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - tricky_0
+      - tricky_tex_low
+    - Strings:
+      - tricky_1
+      - tricky_outfit1_tex_low
+    - Strings:
+      - tricky_2
+      - tricky_outfit2_tex_low
+  - CharacterTypeName: spike
+    _serializedCharacter: spike
+    DefaultAssetBundleNames:
+    - spike
+    - spike_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - spike_0
+      - spike_tex_low
+    - Strings:
+      - spike_1
+      - spike_outfit1_tex_low
+    - Strings:
+      - spike_2
+      - spike_outfit2_tex_low
+  - CharacterTypeName: kim
+    _serializedCharacter: kim
+    DefaultAssetBundleNames:
+    - kim
+    - kim_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - kim_0
+      - sydney_tex_low
+    - Strings:
+      - kim_1
+      - sydney_outfit1_tex_low
+    - Strings:
+      - kim_2
+      - sydney_outfit2_tex_low
+  - CharacterTypeName: mexicoCharacter01
+    _serializedCharacter: mexicoCharacter01
+    DefaultAssetBundleNames:
+    - mexicocharacter01
+    - mexicocharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - mexicocharacter01_0
+      - mexico_tex_low
+    - Strings:
+      - mexicocharacter01_1
+      - mexico_outfit1_tex_low
+  - CharacterTypeName: veniceCharacter01
+    _serializedCharacter: veniceCharacter01
+    DefaultAssetBundleNames:
+    - venicecharacter01
+    - venicecharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - venicecharacter01_0
+      - venice_tex_low
+    - Strings:
+      - venicecharacter01_1
+      - venice_outfit1_tex_low
+    - Strings:
+      - venicecharacter01_2
+      - venice_outfit2_tex_low
+  - CharacterTypeName: tasha
+    _serializedCharacter: tasha
+    DefaultAssetBundleNames:
+    - tasha
+    - tasha_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - tasha_0
+      - tasha_tex_low
+    - Strings:
+      - tasha_1
+      - tasha_outfit1_tex_low
+    - Strings:
+      - tasha_2
+      - tasha_outfit2_tex_low
+  - CharacterTypeName: elftricky
+    _serializedCharacter: elftricky
+    DefaultAssetBundleNames:
+    - elftricky
+    - elftricky_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - elftricky_0
+      - tricky_xmas_tex_low
+    - Strings:
+      - elftricky_1
+      - tricky_xmas_outfit1_tex_low
+  - CharacterTypeName: slick
+    _serializedCharacter: slick
+    DefaultAssetBundleNames:
+    - slick
+    - slick_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - slick_0
+      - jake_tex_low
+    - Strings:
+      - slick_1
+      - jake_outfit1_tex_low
+    - Strings:
+      - slick_2
+      - jake_outfit2_tex_low
+  - CharacterTypeName: vancouverCharacter01
+    _serializedCharacter: vancouverCharacter01
+    DefaultAssetBundleNames:
+    - vancouvercharacter01
+    - vancouvercharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - vancouvercharacter01_0
+      - vancouver_tex_low
+    - Strings:
+      - vancouvercharacter01_1
+      - vancouver_outfit1_tex_low
+  - CharacterTypeName: kenyaCharacter01
+    _serializedCharacter: kenyaCharacter01
+    DefaultAssetBundleNames:
+    - kenyacharacter01
+    - kenyacharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - kenyacharacter01_0
+      - kenya_tex_low
+    - Strings:
+      - kenyacharacter01_1
+      - kenya_outfit1_tex_low
+  - CharacterTypeName: arabiaCharacter01
+    _serializedCharacter: arabiaCharacter01
+    DefaultAssetBundleNames:
+    - arabiacharacter01
+    - arabiacharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - arabiacharacter01_0
+      - arabia_tex_low
+    - Strings:
+      - arabiacharacter01_1
+      - arabia_outfit1_tex_low
+    - Strings:
+      - arabiacharacter01_2
+      - arabia_outfit2_tex_low
+  - CharacterTypeName: tony
+    _serializedCharacter: tony
+    DefaultAssetBundleNames:
+    - tony
+    - tony_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - tony_0
+      - newyork_tex_low
+    - Strings:
+      - tony_1
+      - newyork_outfit1_tex_low
+    - Strings:
+      - tony_2
+      - newyork_outfit2_tex_low
+  - CharacterTypeName: hawaiiCharacter01
+    _serializedCharacter: hawaiiCharacter01
+    DefaultAssetBundleNames:
+    - hawaiicharacter01
+    - hawaiicharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - hawaiicharacter01_0
+      - hawaii_tex_low
+    - Strings:
+      - hawaiicharacter01_1
+      - hawaii_outfit1_tex_low
+    - Strings:
+      - hawaiicharacter01_2
+      - hawaii_outfit2_tex_low
+  - CharacterTypeName: roberto
+    _serializedCharacter: roberto
+    DefaultAssetBundleNames:
+    - roberto
+    - roberto_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - roberto_0
+      - rome_tex_low
+    - Strings:
+      - roberto_1
+      - rome_outfit1_tex_low
+  - CharacterTypeName: greeceCharacter01
+    _serializedCharacter: greeceCharacter01
+    DefaultAssetBundleNames:
+    - greececharacter01
+    - greececharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - greececharacter01_0
+      - greece_tex_low
+    - Strings:
+      - greececharacter01_1
+      - greece_outfit1_tex_low
+  - CharacterTypeName: halloweenCharacter01
+    _serializedCharacter: halloweenCharacter01
+    DefaultAssetBundleNames:
+    - halloweencharacter01
+    - halloweencharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - halloweencharacter01_0
+      - halloween_tex_low
+    - Strings:
+      - halloweencharacter01_1
+      - halloween_outfit1_tex_low
+    - Strings:
+      - halloweencharacter01_2
+      - halloween_outfit2_tex_low
+  - CharacterTypeName: mumbaiCharacter01
+    _serializedCharacter: mumbaiCharacter01
+    DefaultAssetBundleNames:
+    - mumbaicharacter01
+    - mumbaicharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - mumbaicharacter01_0
+      - mumbai_tex_low
+    - Strings:
+      - mumbaicharacter01_1
+      - mumbai_outfit1_tex_low
+    - Strings:
+      - mumbaicharacter01_2
+      - mumbai_outfit2_tex_low
+  - CharacterTypeName: saopauloCharacter01
+    _serializedCharacter: saopauloCharacter01
+    DefaultAssetBundleNames:
+    - saopaulocharacter01
+    - saopaulocharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - saopaulocharacter01_0
+      - saopaulo_tex_low
+    - Strings:
+      - saopaulocharacter01_1
+      - saopaulo_outfit1_tex_low
+  - CharacterTypeName: ninja
+    _serializedCharacter: ninja
+    DefaultAssetBundleNames:
+    - ninja
+    - ninja_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - ninja_0
+      - ninja_tex_low
+    - Strings:
+      - ninja_1
+      - ninja_outfit1_tex_low
+    - Strings:
+      - ninja_2
+      - ninja_outfit2_tex_low
+  - CharacterTypeName: zombiejake
+    _serializedCharacter: zombiejake
+    DefaultAssetBundleNames:
+    - zombiejake
+    - zombiejake_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - zombiejake_0
+      - jake_zombie_tex_low
+  - CharacterTypeName: londonCharacter01
+    _serializedCharacter: londonCharacter01
+    DefaultAssetBundleNames:
+    - londoncharacter01
+    - londoncharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - londoncharacter01_0
+      - jamie_tex_low
+    - Strings:
+      - londoncharacter01_1
+      - jamie_outfit1_tex_low
+  - CharacterTypeName: zoe
+    _serializedCharacter: zoe
+    DefaultAssetBundleNames:
+    - zoe
+    - zoe_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - zoe_0
+      - zoe_tex_low
+    - Strings:
+      - zoe_1
+      - zoe_outfit1_tex_low
+    - Strings:
+      - zoe_2
+      - zoe_outfit2_tex_low
+  - CharacterTypeName: carmen
+    _serializedCharacter: carmen
+    DefaultAssetBundleNames:
+    - carmen
+    - carmen_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - carmen_0
+      - rio_tex_low
+    - Strings:
+      - carmen_1
+      - rio_outfit1_tex_low
+    - Strings:
+      - carmen_2
+      - rio_outfit2_tex_low
+  - CharacterTypeName: lucy
+    _serializedCharacter: lucy
+    DefaultAssetBundleNames:
+    - lucy
+    - lucy_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - lucy_0
+      - lucy_tex_low
+    - Strings:
+      - lucy_1
+      - lucy_outfit1_tex_low
+    - Strings:
+      - lucy_2
+      - lucy_outfit2_tex_low
+  - CharacterTypeName: brody
+    _serializedCharacter: brody
+    DefaultAssetBundleNames:
+    - brody
+    - brody_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - brody_0
+      - brody_tex_low
+    - Strings:
+      - brody_1
+      - brody_outfit1_tex_low
+    - Strings:
+      - brody_2
+      - brody_outfit2_tex_low
+  - CharacterTypeName: monkeyking
+    _serializedCharacter: monkeyking
+    DefaultAssetBundleNames:
+    - monkeyking
+    - monkeyking_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - monkeyking_0
+      - beijing_tex_low
+    - Strings:
+      - monkeyking_1
+      - beijing_outfit1_tex_low
+  - CharacterTypeName: nick
+    _serializedCharacter: nick
+    DefaultAssetBundleNames:
+    - nick
+    - nick_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - nick_0
+      - miami_tex_low
+    - Strings:
+      - nick_1
+      - miami_outfit1_tex_low
+    - Strings:
+      - nick_2
+      - miami_outfit2_tex_low
+  - CharacterTypeName: harumi
+    _serializedCharacter: harumi
+    DefaultAssetBundleNames:
+    - harumi
+    - harumi_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - harumi_0
+      - tokyo_tex_low
+    - Strings:
+      - harumi_1
+      - tokyo_outfit1_tex_low
+    - Strings:
+      - harumi_2
+      - tokyo_outfit2_tex_low
+  - CharacterTypeName: londonCharacter02
+    _serializedCharacter: londonCharacter02
+    DefaultAssetBundleNames:
+    - londoncharacter02
+    - londoncharacter02_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - londoncharacter02_0
+      - holliday_tex_low
+    - Strings:
+      - londoncharacter02_1
+      - holliday_tex_low
+    - Strings:
+      - londoncharacter02_2
+      - holliday_tex_low
+  - CharacterTypeName: frizzy
+    _serializedCharacter: frizzy
+    DefaultAssetBundleNames:
+    - frizzy
+    - frizzy_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - frizzy_0
+      - frizzy_tex_low
+    - Strings:
+      - frizzy_1
+      - frizzy_outfit1_tex_low
+    - Strings:
+      - frizzy_2
+      - frizzy_outfit2_tex_low
+  - CharacterTypeName: yutani
+    _serializedCharacter: yutani
+    DefaultAssetBundleNames:
+    - yutani
+    - yutani_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - yutani_0
+      - yutani_tex_low
+  - CharacterTypeName: coco
+    _serializedCharacter: coco
+    DefaultAssetBundleNames:
+    - coco
+    - coco_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - coco_0
+      - paris_tex_low
+    - Strings:
+      - coco_1
+      - paris_outfit1_tex_low
+    - Strings:
+      - coco_2
+      - paris_outfit2_tex_low
+  - CharacterTypeName: lasVegasCharacter01
+    _serializedCharacter: lasVegasCharacter01
+    DefaultAssetBundleNames:
+    - lasvegascharacter01
+    - lasvegascharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - lasvegascharacter01_0
+      - lasvegas_tex_low
+    - Strings:
+      - lasvegascharacter01_1
+      - lasvegas_outfit1_tex_low
+    - Strings:
+      - lasvegascharacter01_2
+      - lasvegas_outfit2_tex_low
+  - CharacterTypeName: bangkokCharacter01
+    _serializedCharacter: bangkokCharacter01
+    DefaultAssetBundleNames:
+    - bangkokcharacter01
+    - bangkokcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - bangkokcharacter01_0
+      - bangkok_tex_low
+    - Strings:
+      - bangkokcharacter01_1
+      - bangkok_outfit1_tex_low
+    - Strings:
+      - bangkokcharacter01_2
+      - bangkok_outfit2_tex_low
+  - CharacterTypeName: sanfranciscoCharacter01
+    _serializedCharacter: sanfranciscoCharacter01
+    DefaultAssetBundleNames:
+    - sanfranciscocharacter01
+    - sanfranciscocharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - sanfranciscocharacter01_0
+      - sanfran_tex_low
+    - Strings:
+      - sanfranciscocharacter01_1
+      - sanfran_outfit1_tex_low
+    - Strings:
+      - sanfranciscocharacter01_2
+      - sanfran_outfit2_tex_low
+  - CharacterTypeName: pragueCharacter01
+    _serializedCharacter: pragueCharacter01
+    DefaultAssetBundleNames:
+    - praguecharacter01
+    - praguecharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - praguecharacter01_0
+      - prague_tex_low
+    - Strings:
+      - praguecharacter01_1
+      - prague_outfit1_tex_low
+  - CharacterTypeName: madagascarCharacter01
+    _serializedCharacter: madagascarCharacter01
+    DefaultAssetBundleNames:
+    - madagascarcharacter01
+    - madagascarcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - madagascarcharacter01_0
+      - madagascar_outfit1_tex_low
+    - Strings:
+      - madagascarcharacter01_1
+      - madagascar_tex_low
+  - CharacterTypeName: peruCharacter01
+    _serializedCharacter: peruCharacter01
+    DefaultAssetBundleNames:
+    - perucharacter01
+    - perucharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - perucharacter01_0
+      - peru_tex_low
+    - Strings:
+      - perucharacter01_1
+      - peru_outfit1_tex_low
+    - Strings:
+      - perucharacter01_2
+      - peru_outfit2_tex_low
+  - CharacterTypeName: singaporeCharacter01
+    _serializedCharacter: singaporeCharacter01
+    DefaultAssetBundleNames:
+    - singaporecharacter01
+    - singaporecharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - singaporecharacter01_0
+      - singapore_tex_low
+    - Strings:
+      - singaporecharacter01_1
+      - singapore_outfit1_tex_low
+    - Strings:
+      - singaporecharacter01_2
+      - singapore_outfit2_tex_low
+  - CharacterTypeName: icelandCharacter01
+    _serializedCharacter: icelandCharacter01
+    DefaultAssetBundleNames:
+    - icelandcharacter01
+    - icelandcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - icelandcharacter01_0
+      - iceland_tex_low
+    - Strings:
+      - icelandcharacter01_1
+      - iceland_outfit1_tex_low
+    - Strings:
+      - icelandcharacter01_2
+      - iceland_outfit2_tex_low
+  - CharacterTypeName: havanaCharacter01
+    _serializedCharacter: havanaCharacter01
+    DefaultAssetBundleNames:
+    - havanacharacter01
+    - havanacharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - havanacharacter01_0
+      - havana_tex_low
+    - Strings:
+      - havanacharacter01_1
+      - havana_outfit1_tex_low
+    - Strings:
+      - havanacharacter01_2
+      - havana_outfit2_tex_low
+  - CharacterTypeName: washingtonCharacter01
+    _serializedCharacter: washingtonCharacter01
+    DefaultAssetBundleNames:
+    - washingtoncharacter01
+    - washingtoncharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - washingtoncharacter01_0
+      - washington_tex_low
+    - Strings:
+      - washingtoncharacter01_1
+      - washington_outfit1_tex_low
+    - Strings:
+      - washingtoncharacter01_2
+      - washington_outfit2_tex_low
+  - CharacterTypeName: holidayCharacter2016
+    _serializedCharacter: holidayCharacter2016
+    DefaultAssetBundleNames:
+    - holidaycharacter2016
+    - holidaycharacter2016_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - holidaycharacter2016_0
+      - holiday2016_tex_low
+    - Strings:
+      - holidaycharacter2016_1
+      - holiday2016_outfit1_tex_low
+  - CharacterTypeName: amsterdamCharacter01
+    _serializedCharacter: amsterdamCharacter01
+    DefaultAssetBundleNames:
+    - amsterdamcharacter01
+    - amsterdamcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - amsterdamcharacter01_0
+      - amsterdam_tex_low
+    - Strings:
+      - amsterdamcharacter01_1
+      - amsterdam_outfit1_tex_low
+  - CharacterTypeName: monacoCharacter01
+    _serializedCharacter: monacoCharacter01
+    DefaultAssetBundleNames:
+    - monacocharacter01
+    - monacocharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - monacocharacter01_0
+      - monaco_tex_low
+    - Strings:
+      - monacocharacter01_1
+      - monaco_outfit1_tex_low
+    - Strings:
+      - monacocharacter01_2
+      - monaco_outfit2_tex_low
+  - CharacterTypeName: copenhagenCharacter01
+    _serializedCharacter: copenhagenCharacter01
+    DefaultAssetBundleNames:
+    - copenhagencharacter01
+    - copenhagencharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - copenhagencharacter01_0
+      - copenhagen_tex_low
+    - Strings:
+      - copenhagencharacter01_1
+      - copenhagen_outfit1_tex_low
+  - CharacterTypeName: marrakeshCharacter01
+    _serializedCharacter: marrakeshCharacter01
+    DefaultAssetBundleNames:
+    - marrakeshcharacter01
+    - marrakeshcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - marrakeshcharacter01_0
+      - marrakesh_tex_low
+    - Strings:
+      - marrakeshcharacter01_1
+      - marrakesh_outfit1_tex_low
+    - Strings:
+      - marrakeshcharacter01_2
+      - marrakesh_outfit2_tex_low
+  - CharacterTypeName: shanghaiCharacter01
+    _serializedCharacter: shanghaiCharacter01
+    DefaultAssetBundleNames:
+    - shanghaicharacter01
+    - shanghaicharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - shanghaicharacter01_0
+      - shanghai_tex_low
+    - Strings:
+      - shanghaicharacter01_1
+      - shanghai_outfit1_tex_low
+  - CharacterTypeName: barcelonaCharacter01
+    _serializedCharacter: barcelonaCharacter01
+    DefaultAssetBundleNames:
+    - barcelonacharacter01
+    - barcelonacharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - barcelonacharacter01_0
+      - barcelona_tex_low
+    - Strings:
+      - barcelonacharacter01_1
+      - barcelona_outfit1_tex_low
+  - CharacterTypeName: mexicoCharacter02
+    _serializedCharacter: mexicoCharacter02
+    DefaultAssetBundleNames:
+    - mexicocharacter02
+    - mexicocharacter02_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - mexicocharacter02_0
+      - mexicohalloween_tex_low
+    - Strings:
+      - mexicocharacter02_1
+      - mexicohalloween_outfit1_tex_low
+  - CharacterTypeName: stPetersburgCharacter01
+    _serializedCharacter: stPetersburgCharacter01
+    DefaultAssetBundleNames:
+    - stpetersburgcharacter01
+    - stpetersburgcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - stpetersburgcharacter01_0
+      - stpetersburg_tex_low
+    - Strings:
+      - stpetersburgcharacter01_1
+      - stpetersburg_outfit1_tex_low
+  - CharacterTypeName: chicagoCharacter01
+    _serializedCharacter: chicagoCharacter01
+    DefaultAssetBundleNames:
+    - chicagocharacter01
+    - chicagocharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - chicagocharacter01_0
+      - chicago_tex_low
+    - Strings:
+      - chicagocharacter01_1
+      - chicago_outfit1_tex_low
+  - CharacterTypeName: buenosAiresCharacter01
+    _serializedCharacter: buenosAiresCharacter01
+    DefaultAssetBundleNames:
+    - buenosairescharacter01
+    - buenosairescharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - buenosairescharacter01_0
+      - buenosaires_tex_low
+    - Strings:
+      - buenosairescharacter01_1
+      - buenosaires_outfit1_tex_low
+  - CharacterTypeName: veniceBeachCharacter01
+    _serializedCharacter: veniceBeachCharacter01
+    DefaultAssetBundleNames:
+    - venicebeachcharacter01
+    - venicebeachcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - venicebeachcharacter01_0
+      - venice_beach_tex_low
+    - Strings:
+      - venicebeachcharacter01_1
+      - venice_beach_outfit1_tex_low
+  - CharacterTypeName: firstPurchaseBonusCharacter01
+    _serializedCharacter: firstPurchaseBonusCharacter01
+    DefaultAssetBundleNames:
+    - firstpurchasebonuscharacter01
+    - firstpurchasebonuscharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - firstpurchasebonuscharacter01_0
+      - first_purchase_bonus_tex_low
+  - CharacterTypeName: newOrleansCharacter01
+    _serializedCharacter: newOrleansCharacter01
+    DefaultAssetBundleNames:
+    - neworleanscharacter01
+    - neworleanscharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - neworleanscharacter01_0
+      - halloweenspecial_tex_low
+  - CharacterTypeName: berlinCharacter01
+    _serializedCharacter: berlinCharacter01
+    DefaultAssetBundleNames:
+    - berlincharacter01
+    - berlincharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - berlincharacter01_0
+      - berlin_tex_low
+    - Strings:
+      - berlincharacter01_1
+      - berlin_outfit1_tex_low
+  - CharacterTypeName: hongKongCharacter01
+    _serializedCharacter: hongKongCharacter01
+    DefaultAssetBundleNames:
+    - hongkongcharacter01
+    - hongkongcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - hongkongcharacter01_0
+      - hongkong_tex_low
+    - Strings:
+      - hongkongcharacter01_1
+      - hongkong_outfit1_tex_low
+  - CharacterTypeName: atlantaCharacter01
+    _serializedCharacter: atlantaCharacter01
+    DefaultAssetBundleNames:
+    - atlantacharacter01
+    - atlantacharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - atlantacharacter01_0
+      - atlanta_tex_low
+    - Strings:
+      - atlantacharacter01_1
+      - atlanta_outfit1_tex_low
+  - CharacterTypeName: zurichCharacter01
+    _serializedCharacter: zurichCharacter01
+    DefaultAssetBundleNames:
+    - zurichcharacter01
+    - zurichcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - zurichcharacter01_0
+      - zurich_tex_low
+    - Strings:
+      - zurichcharacter01_1
+      - zurich_outfit1_tex_low
+  - CharacterTypeName: easterSpecialCharacter01
+    _serializedCharacter: easterSpecialCharacter01
+    DefaultAssetBundleNames:
+    - easterspecialcharacter01
+    - easterspecialcharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - easterspecialcharacter01_0
+      - easterspecial_tex_low
+  - CharacterTypeName: graffitiGirl
+    _serializedCharacter: graffitiGirl
+    DefaultAssetBundleNames:
+    - graffitigirl
+    - graffitigirl_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - graffitigirl_0
+      - graffitigirl_tex_low
+  - CharacterTypeName: guangzhouCharacter01
+    _serializedCharacter: guangzhouCharacter01
+    DefaultAssetBundleNames:
+    - guangzhoucharacter01
+    - guangzhoucharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - guangzhoucharacter01_0
+      - guangzhou_tex_low
+  - CharacterTypeName: dubaiCharacter01
+    _serializedCharacter: dubaiCharacter01
+    DefaultAssetBundleNames:
+    - dubaicharacter01
+    - dubaicharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - dubaicharacter01_0
+      - dubai_tex_low
+    - Strings:
+      - dubaicharacter01_1
+      - dubai_outfit1_tex_low
+  - CharacterTypeName: macauCharacter01
+    _serializedCharacter: macauCharacter01
+    DefaultAssetBundleNames:
+    - macaucharacter01
+    - macaucharacter01_idles
+    OutfitAssetBundleNames:
+    - Strings:
+      - macaucharacter01_0
+      - macau_tex_low
+    - Strings:
+      - macaucharacter01_1
+      - macau_outfit1_tex_low
+--- !u!114 &60
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496aa96158d74c313907af113172ef94, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  scalingStyle: 1
+  manualWidth: 1280
+  manualHeight: 480
+  minimumHeight: 320
+  maximumHeight: 100000
+  fitWidth: 0
+  fitHeight: 1
+  adjustByDPI: 0
+  shrinkPortraitUI: 0
+--- !u!114 &61
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 12}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9034c33a471224f5e93934f24220be41, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  eventType: 1
+  eventsGoToColliders: 0
+  eventReceiverMask:
+    serializedVersion: 2
+    m_Bits: 1073741824
+  processEventsIn: 0
+  debug: 0
+  useMouse: 1
+  useTouch: 1
+  allowMultiTouch: 0
+  useKeyboard: 1
+  useController: 1
+  stickyTooltip: 1
+  tooltipDelay: 1
+  longPressTooltip: 0
+  mouseDragThreshold: 4
+  mouseClickThreshold: 10
+  touchDragThreshold: 10
+  touchClickThreshold: 25
+  rangeDistance: -1
+  horizontalAxisName: Horizontal
+  verticalAxisName: Vertical
+  horizontalPanAxisName:
+  verticalPanAxisName:
+  scrollAxisName: Mouse ScrollWheel
+  commandClick: 1
+  submitKey0: 13
+  submitKey1: 330
+  cancelKey0: 27
+  cancelKey1: 331
+  autoHideCursor: 1
+--- !u!114 &62
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  mColor: {r: 0.011764707, g: 0.454902, b: 0.64705884, a: 1}
+  mPivot: 4
+  mWidth: 290
+  mHeight: 10
+  mDepth: 3
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 29
+  keepCrispWhenShrunk: 2
+  mTrueTypeFont: {fileID: 12800000, guid: bccb986cf880eb348833afb2f76dde55, type: 3}
+  mFont: {fileID: 0}
+  mText: '- Charles Portendorfer, Brighton, England -'
+  mFontSize: 12
+  mFontStyle: 0
+  mAlignment: 0
+  mEncoding: 0
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 0
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mOverflowEllipsis: 0
+  mOverflowWidth: 0
+  mOverflowHeight: 0
+  mModifier: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &63
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf864db7f010e690d7f1cee2ff07f616, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _settings:
+    Enabled: 0
+    FlushEnabled: 1
+    BaseURL:
+    _samplingThreshold: 0
+    MaxGamesWithoutFlush: 10
+    GamesInSessionBeforeFirstFlush: 1
+    OnlyValidatedPurchases: 1
+    ApplicationID: subwaysurf
+    ApiVersion: 4.0
+    WebRequestTimeoutSeconds: 60
+    SessionTimeoutSeconds: 1800
+    ChunkSizeThresholdKB: 512
+    StorageLimitKB: 2048
+    Key: 62ba78266704f4f66fcd502398fcadb675a87c8e6f489c9760ccc2930a2e
+    UserAgentString:
+  _samplingKey: 0
+  _sampleState: 0
+  _useDebugSettings: 0
+  _useDebugSettingsOnce: 0
+  _debugSettings:
+    Enabled: 0
+    FlushEnabled: 1
+    BaseURL: https://subwaysurf.dev.bladesofbrim.com
+    _samplingThreshold: 0
+    MaxGamesWithoutFlush: 10
+    GamesInSessionBeforeFirstFlush: 1
+    OnlyValidatedPurchases: 1
+    ApplicationID: subwaysurf
+    ApiVersion: 4.0
+    WebRequestTimeoutSeconds: 60
+    SessionTimeoutSeconds: 1800
+    ChunkSizeThresholdKB: 512
+    StorageLimitKB: 2048
+    Key: 62ba78266704f4f66fcd502398fcadb675a87c8e6f489c9760ccc2930a2e
+    UserAgentString: subwaysurf/01.69.00
+--- !u!114 &64
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 3}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cbbc312ecad587513a34c07d82f476, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Comment: The 'Managers' GameObject is created on-demand by HierarchyUtility. Manually drag in children as you like. Please do not remove it.
+--- !u!114 &65
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 4}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8e6e651db850173cdd8aa91e7dac428, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  _titleTipLabel: {fileID: 77}
+  _tipLabel: {fileID: 78}
+  _userNameLabel: {fileID: 62}
+  _loadingLabel: {fileID: 75}
+  _slider: {fileID: 83}
+  _splashObject: {fileID: 24}
+  _background: {fileID: 72}
+  _uiRoot: {fileID: 60}
+--- !u!114 &66
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cbbc312ecad587513a34c07d82f476, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Comment: "The 'Managers' GameObject is created on-demand by HierarchyUtility. It holds managers and other dynamic instances.\n Please do not remove it."
+--- !u!114 &67
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 7}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b966813a45a3ddd7afe0709044cd4784, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 40}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 40}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 40}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 40}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  mColor: {r: 0.54509807, g: 0.80392164, b: 0.9176471, a: 1}
+  mPivot: 3
+  mWidth: 179
+  mHeight: 23
+  mDepth: 6
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 7.7826085
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mTexture: {fileID: 2800000, guid: fca43d48dbad5354aa28a58341e0a377, type: 3}
+  mShader: {fileID: 4800000, guid: 7b5756a973c143f458ec13e15dbbae40, type: 3}
+  mBorder: {x: 13, y: 13, z: 13, w: 13}
+  mFixedAspect: 0
+  mPixelSize: 0.5
+--- !u!114 &68
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e07e49a598b84889c643ae72072bbc, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+--- !u!114 &69
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 39}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 39}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 39}
+    relative: 1
+    absolute: -58
+  topAnchor:
+    target: {fileID: 39}
+    relative: 1
+    absolute: -20
+  updateAnchors: 0
+  mColor: {r: 0.2627451, g: 0.43529415, b: 0.58431375, a: 1}
+  mPivot: 4
+  mWidth: 302
+  mHeight: 38
+  mDepth: 2
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 7.9473686
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlas: {fileID: 114724804207875695, guid: 2fc0ccc5553cbf54588086ad1c284576, type: 2}
+  mSpriteName: whitebox3x3
+  mFillCenter: 1
+--- !u!114 &70
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 11}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cbbc312ecad587513a34c07d82f476, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Comment: "The 'Dynamic' GameObject is created on-demand by HierarchyUtility. It holds managers and other dynamic instances.\n Please do not remove it."
+--- !u!114 &71
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 13}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b966813a45a3ddd7afe0709044cd4784, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 32}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 32}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 32}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 32}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  mColor: {r: 1, g: 0.8000001, b: 0, a: 1}
+  mPivot: 4
+  mWidth: 179
+  mHeight: 23
+  mDepth: 7
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 7.7826085
+  mType: 5
+  mFillDirection: 4
+  mFillAmount: 0.4979
+  mInvert: 0
+  mFlip: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mTexture: {fileID: 2800000, guid: fca43d48dbad5354aa28a58341e0a377, type: 3}
+  mShader: {fileID: 4800000, guid: 7b5756a973c143f458ec13e15dbbae40, type: 3}
+  mBorder: {x: 13, y: 13, z: 13, w: 13}
+  mFixedAspect: 0
+  mPixelSize: 0.5
+--- !u!114 &72
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 14}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b966813a45a3ddd7afe0709044cd4784, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 33}
+    relative: 0
+    absolute: -40
+  rightAnchor:
+    target: {fileID: 33}
+    relative: 1
+    absolute: 40
+  bottomAnchor:
+    target: {fileID: 33}
+    relative: 0
+    absolute: -207
+  topAnchor:
+    target: {fileID: 33}
+    relative: 0
+    absolute: 189
+  updateAnchors: 0
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 7
+  mWidth: 302
+  mHeight: 396
+  mDepth: 0
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 0.7626263
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mTexture: {fileID: 2800000, guid: 39d4681382cd9af45b92504676deb527, type: 3}
+  mShader: {fileID: 4800000, guid: 7b5756a973c143f458ec13e15dbbae40, type: 3}
+  mBorder: {x: 16, y: 25, z: 25, w: 16}
+  mFixedAspect: 0
+  mPixelSize: 0.5
+--- !u!114 &73
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0110146dbab87410eb62d6f3e8233d7d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 61
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: -60
+  bottomAnchor:
+    target: {fileID: 41}
+    relative: 0
+    absolute: -31
+  topAnchor:
+    target: {fileID: 41}
+    relative: 0
+    absolute: -8
+  updateAnchors: 0
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 179
+  mHeight: 23
+  mDepth: 0
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 7.7826085
+--- !u!114 &74
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 16}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0110146dbab87410eb62d6f3e8233d7d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 34}
+    relative: 0
+    absolute: 70
+  rightAnchor:
+    target: {fileID: 34}
+    relative: 1
+    absolute: -70
+  bottomAnchor:
+    target: {fileID: 34}
+    relative: 0
+    absolute: -85
+  topAnchor:
+    target: {fileID: 34}
+    relative: 0
+    absolute: 2
+  updateAnchors: 1
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 162
+  mHeight: 87
+  mDepth: 11
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 1.862069
+--- !u!114 &75
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 17}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  mColor: {r: 0.043137256, g: 0.16862746, b: 0.3254902, a: 1}
+  mPivot: 4
+  mWidth: 66
+  mHeight: 14
+  mDepth: 15
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 4.857143
+  keepCrispWhenShrunk: 2
+  mTrueTypeFont: {fileID: 12800000, guid: ab427852bf9a44c448ef84bc90120bbe, type: 3}
+  mFont: {fileID: 0}
+  mText: LOADING...
+  mFontSize: 14
+  mFontStyle: 0
+  mAlignment: 0
+  mEncoding: 0
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 2
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 0
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mOverflowEllipsis: 0
+  mOverflowWidth: 0
+  mOverflowHeight: 0
+  mModifier: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &76
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 19}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b966813a45a3ddd7afe0709044cd4784, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 32}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 32}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 32}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 32}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 179
+  mHeight: 23
+  mDepth: 50
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 7.7826085
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mTexture: {fileID: 2800000, guid: b6214dd3a812a884d930198e4d6a5e05, type: 3}
+  mShader: {fileID: 4800000, guid: 7b5756a973c143f458ec13e15dbbae40, type: 3}
+  mBorder: {x: 13, y: 13, z: 13, w: 13}
+  mFixedAspect: 0
+  mPixelSize: 0.5
+--- !u!114 &77
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 20}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  mColor: {r: 1, g: 1, b: 1, a: 1}
+  mPivot: 4
+  mWidth: 286
+  mHeight: 40
+  mDepth: 10
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 7.15
+  keepCrispWhenShrunk: 2
+  mTrueTypeFont: {fileID: 12800000, guid: bccb986cf880eb348833afb2f76dde55, type: 3}
+  mFont: {fileID: 0}
+  mText: Player Tip
+  mFontSize: 30
+  mFontStyle: 0
+  mAlignment: 0
+  mEncoding: 0
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 0
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mOverflowEllipsis: 0
+  mOverflowWidth: 0
+  mOverflowHeight: 0
+  mModifier: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &78
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 21}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848282c0978acd885155e93949b74925, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  mColor: {r: 0.011764706, g: 0.23137255, b: 0.44313726, a: 1}
+  mPivot: 4
+  mWidth: 300
+  mHeight: 54
+  mDepth: 10
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 5.5555553
+  keepCrispWhenShrunk: 2
+  mTrueTypeFont: {fileID: 12800000, guid: ab427852bf9a44c448ef84bc90120bbe, type: 3}
+  mFont: {fileID: 0}
+  mText: '"Reached Multiplier 30? Complete extra missions for Super Mystery Box!"'
+  mFontSize: 18
+  mFontStyle: 0
+  mAlignment: 0
+  mEncoding: 0
+  mMaxLineCount: 0
+  mEffectStyle: 0
+  mEffectColor: {r: 0, g: 0, b: 0, a: 1}
+  mSymbols: 1
+  mEffectDistance: {x: 1, y: 1}
+  mOverflow: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  mSpacingX: 0
+  mSpacingY: 0
+  mUseFloatSpacing: 0
+  mFloatSpacingX: 0
+  mFloatSpacingY: 0
+  mOverflowEllipsis: 0
+  mOverflowWidth: 0
+  mOverflowHeight: 0
+  mModifier: 0
+  mShrinkToFit: 0
+  mMaxLineWidth: 0
+  mMaxLineHeight: 0
+  mLineWidth: 0
+  mMultiline: 1
+--- !u!114 &79
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 22}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e06f2b3004ef49fbd246cf009de50d3, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 39}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 39}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 39}
+    relative: 1
+    absolute: -3
+  topAnchor:
+    target: {fileID: 39}
+    relative: 1
+    absolute: 3
+  updateAnchors: 0
+  mColor: {r: 0.34509805, g: 0.5411765, b: 0.70980394, a: 1}
+  mPivot: 4
+  mWidth: 302
+  mHeight: 6
+  mDepth: -1
+  mMat: {fileID: 0}
+  autoResizeBoxCollider: 0
+  hideIfOffScreen: 0
+  keepAspectRatio: 0
+  aspectRatio: 50.333332
+  mType: 1
+  mFillDirection: 4
+  mFillAmount: 1
+  mInvert: 0
+  mFlip: 0
+  mApplyGradient: 0
+  mGradientTop: {r: 1, g: 1, b: 1, a: 1}
+  mGradientBottom: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  centerType: 1
+  leftType: 1
+  rightType: 1
+  bottomType: 1
+  topType: 1
+  mAtlas: {fileID: 114724804207875695, guid: 2fc0ccc5553cbf54588086ad1c284576, type: 2}
+  mSpriteName: whitebox3x3
+  mFillCenter: 1
+--- !u!114 &80
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 23}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cbbc312ecad587513a34c07d82f476, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Comment: The '_Root' GameObject is created on-demand by HierarchyUtility.
+--- !u!114 &81
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 24}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5676eac243950fdc822aa62310084100, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  cam: {fileID: 51}
+  repositionNow: 0
+--- !u!114 &82
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 25}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62cbbc312ecad587513a34c07d82f476, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Comment: The 'Manual' GameObject is created on-demand by HierarchyUtility. Manually drag in children as you like. Please do not remove it.
+--- !u!114 &83
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 15}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa740694b6d2300121745998cb996fb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  thumb: {fileID: 0}
+  mBG: {fileID: 67}
+  mFG: {fileID: 71}
+  mValue: 0.4979
+  mFill: 0
+  numberOfSteps: 0
+  onChange: []
+  foreground: {fileID: 38}
+  rawValue: 0.364
+  direction: 2
+  mInverted: 0
+--- !u!114 &84
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 8}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  showInPanelTool: 1
+  generateNormals: 0
+  generateUV2: 0
+  shadowMode: 0
+  widgetsAreStatic: 0
+  cullWhileDragging: 0
+  alwaysOnScreen: 0
+  anchorOffset: 0
+  softBorderPadding: 1
+  renderQueue: 0
+  startingRenderQueue: 3000
+  mClipTexture: {fileID: 0}
+  mAlpha: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+  mDepth: 1
+  mSortingOrder: 0
+  mSortingLayerName:
+  mClipOffset: {x: 0, y: 0}
+  useSortingOrder: 0
+--- !u!114 &85
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 18}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7c3bff608434c7f74859fbc7af5fe1, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  leftAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  rightAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  bottomAnchor:
+    target: {fileID: 0}
+    relative: 0
+    absolute: 0
+  topAnchor:
+    target: {fileID: 0}
+    relative: 1
+    absolute: 0
+  updateAnchors: 0
+  showInPanelTool: 1
+  generateNormals: 0
+  generateUV2: 0
+  shadowMode: 0
+  widgetsAreStatic: 0
+  cullWhileDragging: 0
+  alwaysOnScreen: 0
+  anchorOffset: 0
+  softBorderPadding: 1
+  renderQueue: 0
+  startingRenderQueue: 3005
+  mClipTexture: {fileID: 0}
+  mAlpha: 1
+  mClipping: 0
+  mClipRange: {x: 0, y: 0, z: 0, w: 0}
+  mClipSoftness: {x: 40, y: 40}
+  mDepth: 3
+  mSortingOrder: 0
+  mSortingLayerName:
+  mClipOffset: {x: 0, y: 0}
+  useSortingOrder: 0

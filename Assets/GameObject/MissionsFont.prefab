@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: MissionsFont
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a68422e122212f3eb86c19ce6ed442e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mMat: {fileID: 2100000, guid: 7b00a296960099f4fab028f25c5c93fe, type: 2}
+  mUVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  mFont:
+    mSize: 84
+    mBase: 26
+    mWidth: 256
+    mHeight: 256
+    mSpriteName: C:\Users\Nicki.Hansen\Desktop\subwaytemp\font\MissionsFont_small-export
+    mSaved:
+    - index: 48
+      x: 0
+      y: 0
+      width: 70
+      height: 85
+      offsetX: 0
+      offsetY: 0
+      advance: 69
+      channel: 0
+      kerning: 30000000ffffffff31000000ffffffff32000000fdffffff33000000feffffff34000000ffffffff35000000feffffff36000000ffffffff37000000faffffff38000000feffffff39000000ffffffff78000000fdffffff
+    - index: 49
+      x: 66
+      y: 172
+      width: 47
+      height: 83
+      offsetX: 0
+      offsetY: 1
+      advance: 46
+      channel: 0
+      kerning: 30000000fcffffff31000000ffffffff32000000feffffff33000000fdffffff34000000f7ffffff35000000fcffffff36000000f9ffffff37000000ffffffff38000000fcffffff39000000fdffffff78000000feffffff
+    - index: 50
+      x: 196
+      y: 85
+      width: 58
+      height: 84
+      offsetX: 0
+      offsetY: 0
+      advance: 57
+      channel: 0
+      kerning: 30000000fbffffff31000000ffffffff32000000ffffffff33000000feffffff34000000feffffff35000000fdffffff36000000fdffffff37000000ffffffff38000000fdffffff39000000fcffffff78000000fdffffff
+    - index: 51
+      x: 135
+      y: 0
+      width: 60
+      height: 85
+      offsetX: 0
+      offsetY: 0
+      advance: 59
+      channel: 0
+      kerning: 30000000faffffff31000000ffffffff32000000ffffffff33000000fdffffff34000000fdffffff35000000fcffffff36000000fcffffff37000000fdffffff38000000fcffffff39000000faffffff78000000feffffff
+    - index: 52
+      x: 0
+      y: 86
+      width: 67
+      height: 84
+      offsetX: 0
+      offsetY: 0
+      advance: 66
+      channel: 0
+      kerning: 30000000ffffffff31000000ffffffff32000000fdffffff33000000ffffffff34000000ffffffff35000000feffffff36000000ffffffff37000000f6ffffff38000000feffffff39000000feffffff78000000f7ffffff
+    - index: 53
+      x: 196
+      y: 170
+      width: 57
+      height: 84
+      offsetX: 0
+      offsetY: 1
+      advance: 56
+      channel: 0
+      kerning: 30000000fcffffff31000000feffffff32000000feffffff33000000fdffffff34000000fdffffff35000000fcffffff36000000fcffffff37000000fcffffff38000000fcffffff39000000fcffffff78000000feffffff
+    - index: 54
+      x: 71
+      y: 0
+      width: 63
+      height: 85
+      offsetX: 0
+      offsetY: -1
+      advance: 62
+      channel: 0
+      kerning: 30000000ffffffff31000000ffffffff32000000fdffffff33000000ffffffff34000000ffffffff35000000feffffff36000000ffffffff37000000faffffff38000000feffffff39000000ffffffff78000000fdffffff
+    - index: 55
+      x: 196
+      y: 0
+      width: 59
+      height: 84
+      offsetX: 0
+      offsetY: 0
+      advance: 58
+      channel: 0
+      kerning: 30000000fcffffff31000000ffffffff32000000feffffff33000000fdffffff34000000f7ffffff35000000fcffffff36000000f9ffffff37000000ffffffff38000000fcffffff39000000fdffffff78000000feffffff
+    - index: 56
+      x: 68
+      y: 86
+      width: 64
+      height: 85
+      offsetX: 0
+      offsetY: -1
+      advance: 63
+      channel: 0
+      kerning: 30000000feffffff31000000ffffffff32000000ffffffff33000000ffffffff34000000ffffffff35000000feffffff36000000ffffffff37000000fbffffff38000000feffffff39000000feffffff78000000fdffffff
+    - index: 57
+      x: 133
+      y: 86
+      width: 62
+      height: 85
+      offsetX: 0
+      offsetY: -1
+      advance: 61
+      channel: 0
+      kerning: 30000000ffffffff31000000ffffffff32000000feffffff33000000fcffffff34000000faffffff35000000faffffff36000000fbffffff37000000fcffffff38000000fbffffff39000000ffffffff78000000ffffffff
+    - index: 120
+      x: 0
+      y: 171
+      width: 65
+      height: 65
+      offsetX: 0
+      offsetY: 19
+      advance: 64
+      channel: 0
+      kerning:
+    - index: 32
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+      offsetX: 0
+      offsetY: 0
+      advance: 20
+      channel: 0
+      kerning:
+    - index: 9
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+      offsetX: 0
+      offsetY: 0
+      advance: 160
+      channel: 0
+      kerning:
+  mAtlas: {fileID: 0}
+  mReplacement: {fileID: 0}
+  mSymbols: []
+  mDynamicFont: {fileID: 0}
+  mDynamicFontSize: 80
+  mDynamicFontStyle: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

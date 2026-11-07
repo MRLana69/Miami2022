@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3729d31dbb62fc5fa1c1acf9261527f2, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier:
+  id: English
+  _localeId: en-US
+  affectedLocales: []
+  _pasteLocaleList:
+  _pasteTermValues:
+  terms:
+  - key: AgeRestrictionTitle
+    value: "When were you born?\r"
+  - key: AgeRestrictionOk
+    value: "OK\r"
+  - key: ConsentAffirmation
+    value: "I hereby consent to Kiloo’s disclosure of the advertising ID of my device to advertising network companies (see below) for the purpose of serving targeted advertisements in the game based on my personal preferences.\r"
+  - key: ConsentDetails
+    value: "By checking off the box above, I understand that I can always withdraw my consent at any time from within Settings in the game, and I can find more information on Kiloo's processing of my personal data and the identity of the advertising network companies in {0}Kiloo's privacy policy{1}.\r"
+  - key: ConsentAcceptUnchecked
+    value: "I ACCEPT\r"
+  - key: ConsentAcceptChecked
+    value: "ACCEPTED\r"
+  - key: ConsentOK
+    value: "OK\r"
+  - key: WithdrawConsentTitle
+    value: "Withdraw consent?\r"
+  - key: WithdrawConsentBody
+    value: "You have currently given your consent to Kiloo's disclosure of the advertising ID of your device to advertising network companies for the purpose of serving targeted advertisements in the game based on your personal preferences.\r"
+  - key: WithdrawConsentRequirement
+    value: "Please note that if you withdraw your consent, your user license to use the App will cease automatically.\r"
+  - key: WithdrawConsentVerification
+    value: "Are you sure you want to withdraw your consent?\r"
+  - key: WithdrawConsentYes
+    value: "Yes\r"
+  - key: WithdrawConsentNo
+    value: No

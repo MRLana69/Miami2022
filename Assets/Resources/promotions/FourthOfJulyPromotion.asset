@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79a0d8d554476c3c9504422c808a483a, type: 3}
+  m_Name: FourthOfJulyPromotion
+  m_EditorClassIdentifier:
+  _isEnabled: 1
+  _promotionId: fourth_of_july_promotion
+  _stickerTexture: {fileID: 2800000, guid: f8671617f8e9e5841b21f70429d5e436, type: 3}
+  _titleTextColor: {r: 0.011764706, g: 0.23137255, b: 0.44313726, a: 1}
+  _subtitleTextColor: {r: 0.105882354, g: 0.46666667, b: 0.65882355, a: 1}
+  _timerBgColor: {r: 0.2509804, g: 0.8666667, b: 0.6862745, a: 1}
+  _timerTextColor: {r: 1, g: 0.9764706, b: 0.76862746, a: 1}
+  _stickerPosition: {x: 85, y: -7}
+  _stickerSize: {x: 108, y: 111}
+  _cellAppearancePayload:
+    fillTopColor: {r: 0.05490196, g: 0.6862745, b: 1, a: 1}
+    fillBottomColor: {r: 0.6, g: 0.8980392, b: 1, a: 1}
+    titleColor: {r: 0.10980393, g: 0.32156864, b: 0.54509807, a: 1}
+    titleEffectColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    subtitleColor: {r: 0.09411766, g: 0.2901961, b: 0.49803925, a: 1}
+    subtitleEffectColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    boardThemeColor: {r: 1, g: 1, b: 1, a: 1}
+    boardThemeEffectColor: {r: 0.003921569, g: 0.015686275, b: 0.08627451, a: 0.43137255}
+    bannerColorTop: {r: 1, g: 1, b: 1, a: 1}
+    bannerColorBottom: {r: 1, g: 1, b: 1, a: 1}
+    bannerTextColor: {r: 1, g: 1, b: 1, a: 1}
+    canBeWide: 1
+    buttonAction: 1
+    popupID: BoardBundlePopup
+    cellPriority: 0
+  _cellModelAnimationClip: {fileID: 7400000, guid: 2f1e1476c432343479a76156f6550a3c, type: 2}
+  _cellModelPosition: {x: 0, y: 0, z: 0}
+  _cellModelRotation: {x: 0, y: 0, z: 0}
+  _cellModelScale: {x: 0, y: 0, z: 0}
+  useWideCellSettings: 1
+  cellModelSecondaryPosition: {x: 0, y: 10, z: 0}
+  cellModelSecondaryRotation: {x: 35, y: 155, z: -25}
+  cellModelSecondaryScale: {x: 18, y: 18, z: 18}
+  _buttonPrefab: {fileID: 1709254077376921, guid: 870180a83f6b7ef428dbecd70a3a672a, type: 2}
+  _boardId: 106
+  _boardAbility: 3
+  _bundleTier01: rioboard03.bundletier1
+  _bundleTier02: rioboard03.bundletier2
+  _backgroundColorTop: {r: 0.05490196, g: 0.6862745, b: 1, a: 1}
+  _backgroundColorBottom: {r: 0.6, g: 0.8980392, b: 1, a: 1}
+  _flashColor: {r: 1, g: 1, b: 1, a: 1}
+  _beamColor: {r: 1, g: 1, b: 1, a: 0.2509804}
+  _boardBundlePresentation:
+    _backgroundColorTop: {r: 0.9019608, g: 0.047058824, b: 0.1882353, a: 1}
+    _backgroundColorBottom: {r: 0.8980392, g: 0.4509804, b: 0.5254902, a: 1}
+    _flashColor: {r: 1, g: 1, b: 1, a: 1}
+    _beamColor: {r: 1, g: 1, b: 1, a: 0.2509804}
+  _boardBundleTier01Presentation:
+    _backgroundColorTop: {r: 0.07450981, g: 0.35686275, b: 0.7490196, a: 1}
+    _backgroundColorBottom: {r: 0.40392157, g: 0.6117647, b: 0.8980392, a: 1}
+    _flashColor: {r: 1, g: 1, b: 1, a: 1}
+    _beamColor: {r: 1, g: 1, b: 1, a: 0.2509804}
+  _boardBundleTier02Presentation:
+    _backgroundColorTop: {r: 0.05490196, g: 0.6862745, b: 1, a: 1}
+    _backgroundColorBottom: {r: 0.6, g: 0.8980392, b: 1, a: 1}
+    _flashColor: {r: 1, g: 1, b: 1, a: 1}
+    _beamColor: {r: 1, g: 1, b: 1, a: 0.2509804}
+  _modelPosition: {x: 6, y: -43, z: 982}
+  _modelRotation: {x: -4, y: -7, z: 0}
+  _bestSplatBgColor: {r: 1, g: 0.8, b: 0, a: 1}
+  _bestSplatLabelColor: {r: 0.49019608, g: 0.105882354, b: 0.019607844, a: 1}

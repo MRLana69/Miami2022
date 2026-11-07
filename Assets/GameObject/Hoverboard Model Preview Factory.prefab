@@ -1,0 +1,553 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  - component: {fileID: 95618682377417806}
+  m_Layer: 29
+  m_Name: Hoverboard Model Preview Factory
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.873657, y: 3.651001, z: 9.166016}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6ffcc8c71b804df270e25d60c9776a9, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  hoverboards:
+  - name: Hoverboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 8e8eb4ce9efb0ff479f29adad7b027f5, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Lowrider
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 3
+    clipHangtime: {fileID: 7400000, guid: 1f16eafe55f1663488bd5eae13123894, type: 2}
+    clipRun: {fileID: 7400000, guid: f8975157e38305b48a08d88114e54838, type: 2}
+  - name: Snowboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 2.6
+    clipHangtime: {fileID: 7400000, guid: 7ca8d5adf8a40864088525bfc7587a01, type: 2}
+    clipRun: {fileID: 7400000, guid: 4071d0503c18d1247ac85e02435e1ba4, type: 2}
+  - name: Surfboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 4
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 708233759d971e243962ccd59d5bf81b, type: 2}
+  - name: GreatWhiteWakeboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 1
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 708233759d971e243962ccd59d5bf81b, type: 2}
+  - name: Jumpboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0
+    clipHangtime: {fileID: 7400000, guid: 4f41efbc505de1347ae1dee48866be21, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Daredevil
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 4.5
+    clipHangtime: {fileID: 7400000, guid: 5c1d5d9077d693140b93ca48f423062f, type: 2}
+    clipRun: {fileID: 7400000, guid: e172c4e6c284c4641b08f62ea8ab1ccb, type: 2}
+  - name: Bamboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 8e8eb4ce9efb0ff479f29adad7b027f5, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Starboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: cf62f022a20c94549a4b793bc4cec5a4, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Monster
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: dc10839f45bcdd14ca3020db4d7a619b, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: SkullFire
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: c6243d843818f6441b4e97cbe83a7551, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Miami
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 65ccbec491cec5f46a69608aef38cf18, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Liberty
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 749f4663142de55448b8df3a2f4bc708, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: RioBoard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: a957ed8bb4a491c42a973aa973bf361a, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Treehugger
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: dc10839f45bcdd14ca3020db4d7a619b, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Chick
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: a957ed8bb4a491c42a973aa973bf361a, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Rome
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Soccer
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 749f4663142de55448b8df3a2f4bc708, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: TheOutback
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 749f4663142de55448b8df3a2f4bc708, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Cherry
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 749f4663142de55448b8df3a2f4bc708, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Fortune
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 749f4663142de55448b8df3a2f4bc708, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: HotRod
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    clipRun: {fileID: 7400000, guid: 786e10a7f60e89a4494b3a3ce09c380c, type: 2}
+  - name: Flamingo
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: a957ed8bb4a491c42a973aa973bf361a, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Rose
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: a957ed8bb4a491c42a973aa973bf361a, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Panda
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 4f41efbc505de1347ae1dee48866be21, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Dragon
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 8e8eb4ce9efb0ff479f29adad7b027f5, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Teddy
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 8e8eb4ce9efb0ff479f29adad7b027f5, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: Pumpkin
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 8e8eb4ce9efb0ff479f29adad7b027f5, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: londonBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: londonBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: a957ed8bb4a491c42a973aa973bf361a, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: mumbaiBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 4f41efbc505de1347ae1dee48866be21, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: teleboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: gliderboard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 8bc87ff4a5beab2489fc2d9f5e2b6211, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: seoulBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 8e8eb4ce9efb0ff479f29adad7b027f5, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: mexicoBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: a957ed8bb4a491c42a973aa973bf361a, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: vancouverBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: saopauloBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: cace623ffbf6b1c4ea07c2c712993e77, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: losangelesBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: cairoBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: bangkokBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: londonBoard03
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: lasVegasBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: hawaiiBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 57326d5d80c143945a325ab5aee03a58, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: arabiaBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: dc975a7f82ca38e4aa83e9e141e46bfc, type: 2}
+  - name: veniceBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: dc975a7f82ca38e4aa83e9e141e46bfc, type: 2}
+  - name: rioBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: sydneyBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: dc975a7f82ca38e4aa83e9e141e46bfc, type: 2}
+  - name: greeceBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: kenyaBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: bba9e789af2e68f4d81b823ca6da3e38, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: transylvaniaBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: f5e634cc4fe40974fb41af96986627df, type: 2}
+    clipRun: {fileID: 7400000, guid: dc975a7f82ca38e4aa83e9e141e46bfc, type: 2}
+  - name: northpoleBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: f5e634cc4fe40974fb41af96986627df, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: sanfranciscoBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: f5e634cc4fe40974fb41af96986627df, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: pragueBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: sydneyBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: madagascarBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: peruBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: singaporeBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: veniceBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: rioBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: icelandBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: havanaBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: halloweenBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: washingtonBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: northpoleBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: amsterdamBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: arabiaBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: monacoBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: hawaiiBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: copenhagenBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: birthdayBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: marrakeshBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: shanghaiBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: barcelonaBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: mexicoBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: stPetersburgBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: cairoBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: chicagoBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: parisBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: buenosAiresBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: veniceBeachBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: starterPackBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: mumbaiBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: hongKongBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: newYorkBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: berlinBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: marrakeshBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: rioBoard03
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: atlantaBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: harbinBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: zurichBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: sanfranciscoBoard02
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: dubaiBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: macauBoard01
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  - name: julyBoard
+    eulerAngles: {x: 14, y: 110.5, z: 0}
+    menuYPosition: 0.7
+    clipHangtime: {fileID: 7400000, guid: 55b8da32d31ec91489e5ad4d8424dab1, type: 2}
+    clipRun: {fileID: 7400000, guid: 03a1291776eb51a4d95b1875c1553089, type: 2}
+  jumperSignature: {fileID: 7400000, guid: 4e40de8b2d5365141aa1c0d22a302f81, type: 2}
+  speederSignature: {fileID: 7400000, guid: 656e906e2e695724e9601b8c0f8c80ab, type: 2}
+  doublejumperSignature: {fileID: 7400000, guid: f0ca0053da2f438428e3b42d62315dda, type: 2}
+  lowriderSignature: {fileID: 7400000, guid: 1f16eafe55f1663488bd5eae13123894, type: 2}
+  lowriderRunIdle: {fileID: 7400000, guid: f8975157e38305b48a08d88114e54838, type: 2}
+  teleporterSignature: {fileID: 7400000, guid: 71fe99a1b6b0bdf46be2853492cf7f42, type: 2}
+  gliderSignature: {fileID: 7400000, guid: 8bc87ff4a5beab2489fc2d9f5e2b6211, type: 2}
+  vanitySignature: {fileID: 7400000, guid: 4b3e76f7d2a5fcf45a208e6198e6c3bf, type: 2}
+  teleboardWarpPrefab: {fileID: 1709254077376921, guid: ec8fde757114e6f4987c8ff40674214e, type: 2}
+  teleboardFXMaterial: {fileID: 2100000, guid: 089a0d34cf621444b96702a2775c9466, type: 2}
+--- !u!95 &95618682377417806
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 48f26b0fa77c50048abb290f76c2841d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage:
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

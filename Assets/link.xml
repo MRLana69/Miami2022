@@ -1,0 +1,5 @@
+<!-- O NGUI chama métodos pelo nome (EventDelegate nos prefabs); sem isto o IL2CPP remove esses métodos -->
+<linker>
+  <assembly fullname="Assembly-CSharp" preserve="all"/>
+  <assembly fullname="Assembly-CSharp-firstpass" preserve="all"/>
+</linker>

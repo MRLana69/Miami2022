@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c99a59b1fdca6058419691483cb5a7, type: 3}
+  m_Name: SlideInData
+  m_EditorClassIdentifier:
+  _slideInPrefabs:
+  - {fileID: 114044625135789424, guid: 38283aea043ca9145ac1d7e687103bb2, type: 2}
+  - {fileID: 114977153420339851, guid: ea202a4267c65514b925de7d427e8b37, type: 2}
+  - {fileID: 114884547391421755, guid: d73b12c46770d3942bcb1b928d1f7bfa, type: 2}
+  - {fileID: 114099118695303065, guid: 47d529be907b56942b5eca18992c880c, type: 2}
+  - {fileID: 114709867586078768, guid: 96a9e33941948094e91079dfcb3d234c, type: 2}
+  - {fileID: 114589667821646929, guid: b0bb8d1b208c5d845b0d98a498b1c7f6, type: 2}
+  - {fileID: 114709867586078768, guid: 625d354d7279f5e46a3c1002a2a89219, type: 2}
+  - {fileID: 114044625135789424, guid: 6fae979e67c848e49b7a5d356d1620f5, type: 2}
+  - {fileID: 114044625135789424, guid: a3fa32e153c9a2c46b4be8fcb128a380, type: 2}
+  - {fileID: 114044625135789424, guid: 062cc312c1ceab04287fc97b45303276, type: 2}
+  - {fileID: 114099118695303065, guid: ca8883d6fd025ee459fd0ee1ce373ed4, type: 2}
+  - {fileID: 114709867586078768, guid: b42c6d675a6e2c940b4b3369c891c80a, type: 2}
+  - {fileID: 114025901758691103, guid: 2e3ac38790b73d44e81e99a4305ee2a0, type: 2}
+  - {fileID: 114587765826080250, guid: b044440ea9e37c4438b0ea4c2fd31b54, type: 2}
+  - {fileID: 114044625135789424, guid: 436b971963496614b9544bbeac6d635c, type: 2}
+  - {fileID: 114099118695303065, guid: 9208885d316101743b5a72401adc0702, type: 2}
+  - {fileID: 114587765826080250, guid: 3efa0e893fc6b5a46a713e57dc1b7d27, type: 2}
+  - {fileID: 114709867586078768, guid: f09be65d56732f54f9e166aad4cf6f89, type: 2}
+  - {fileID: 114589667821646929, guid: 30a3b8840983b5b499095031bf83cd37, type: 2}
+  - {fileID: 114884547391421755, guid: 0003acb3b712c844b9e99e5a818abab5, type: 2}
+  _slideInSound:
+    Clip: {fileID: 8300000, guid: acf221e9da5cfaa4aa0bc5a3c6c8d177, type: 3}
+    minPitch: 1
+    maxPitch: 1
+    minVolume: 0.6
+    maxVolume: 0.6
+    Rollof: 1
+  _slideInFanfare:
+    Clip: {fileID: 8300000, guid: f2b70e6c374df9c46993e32e9b21cbf1, type: 3}
+    minPitch: 1
+    maxPitch: 1
+    minVolume: 0.4
+    maxVolume: 0.4
+    Rollof: 1

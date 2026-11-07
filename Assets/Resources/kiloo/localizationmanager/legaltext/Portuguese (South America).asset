@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3729d31dbb62fc5fa1c1acf9261527f2, type: 3}
+  m_Name: Portuguese (South America)
+  m_EditorClassIdentifier:
+  id: Portuguese (South America)
+  _localeId: pt-BR
+  affectedLocales:
+  - pt-BR
+  _pasteLocaleList:
+  _pasteTermValues:
+  terms:
+  - key: AgeRestrictionTitle
+    value: "Quando você nasceu?\r"
+  - key: AgeRestrictionOk
+    value: "OK\r"
+  - key: ConsentAffirmation
+    value: "Por meio deste, eu dou meu consentimento para que a Kiloo divulgue a ID de publicidade do meu dispositivo para empresas de redes de publicidade para fins de publicidade no jogo com base em minhas preferências pessoais.\r"
+  - key: ConsentDetails
+    value: "Ao marcar a caixa acima, eu compreendo que eu posso retirar o meu consentimento a qualquer momento nas configurações do jogo, e que eu posso encontrar mais informações sobre como a Kiloo processa meus dados pessoais e a identidade das empresas de redes de publicidade na {0}política de privacidade da Kiloo{1}.\r"
+  - key: ConsentAcceptUnchecked
+    value: "EU ACEITO\r"
+  - key: ConsentAcceptChecked
+    value: "ACEITO\r"
+  - key: ConsentOK
+    value: "OK\r"
+  - key: WithdrawConsentTitle
+    value: "Retirar consentimento?\r"
+  - key: WithdrawConsentBody
+    value: "Você atualmente deu o seu consentimento para que a Kiloo divulgue a ID de publicidade do seu dispositivo a empresas de redes de publicidade a fim de adaptar anúncios presentes no jogo às suas preferências pessoais.\r"
+  - key: WithdrawConsentRequirement
+    value: "Observe que se você retirar o seu consentimento, a sua licença de usuário de uso do aplicativo será encerrada automaticamente.\r"
+  - key: WithdrawConsentVerification
+    value: "Tem certeza de que deseja retirar o seu consentimento?\r"
+  - key: WithdrawConsentYes
+    value: "Sim\r"
+  - key: WithdrawConsentNo
+    value: Não

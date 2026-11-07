@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 33724804207875695}
+  - component: {fileID: 23618682377417806}
+  - component: {fileID: 114703437598541787}
+  m_Layer: 0
+  m_Name: TreeHugger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!33 &33724804207875695
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Mesh: {fileID: 4300000, guid: b1d78b1e4e6d9ac4ea3f68f1f711208e, type: 2}
+--- !u!23 &23618682377417806
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
+  m_Materials:
+  - {fileID: 2100000, guid: dbdb133bc60a28c4b9cefd2fd00a5a0d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!114 &114703437598541787
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7085b527947a953c8305086568d1d4b0, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  defaultHoverboardAnimation: {fileID: 0}
+  runAnimations: []
+  landAnimations: []
+  jumpAnimations: []
+  hangtimeAnimations: []
+  rollAnimations: []
+  dodgeLeftAnimations: []
+  dodgeRightAnimations: []
+  grindAnimations: []
+  grindLandAnimations: []
+  getOnBoardAnimations: []
+  abilityAnimationLists:
+  - ability: 2
+    prio: 1
+    defaultHoverboardAnimation: {fileID: 0}
+    runAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 29bc26196f03c10409f1e4fc276d0998, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    landAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 83e28d0f80d0fea4084ffaf633e74b4e, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    jumpAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 9485f056d5b70274bbf8de186bcf1a69, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    hangtimeAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 9485f056d5b70274bbf8de186bcf1a69, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    rollAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: e1085e4ad1c03c6488a2a324ee120fea, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    dodgeLeftAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 0a510298c5b6ad641a7b75d53cc63d47, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    dodgeRightAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: aa45cf03e402cf140b485727b1d96fbd, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    grindAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 448f556d168657a4baf9248d37ff560a, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    grindLandAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 0722df6ee46d2d949a94dbf62ac113e0, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+    getOnBoardAnimations:
+    - characterAnimationClip: {fileID: 7400000, guid: 89088374624bf0447ab139f89e957731, type: 2}
+      hoverboardAnimationClip: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 1
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1709254077376921}
+  m_IsPrefabParent: 1

@@ -1,0 +1,538 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bb69657f9e590a17b206b234b92a150, type: 3}
+  m_Name: 1.105_Miami
+  m_EditorClassIdentifier:
+  _background:
+    SkylineLeftLimit: -350
+    SkylineRightLimit: 750
+    LayerCommonMaterialShader: {fileID: 4800000, guid: 1a1e7ad7c5cdb9a439183abc67123fca, type: 3}
+    LayerSpacing: 5
+    Layers:
+    - Name: Back
+      SingleObjectPrefabs: []
+      SkylineFillObjectPrefabs:
+      - {fileID: 114703437598541787, guid: 71bb25fdf9900a94685c6625cfab12ec, type: 2}
+      _dontRandomizeSingleObjectSpawnPosition: 0
+      _speed: 0.3
+      LayerIndex: 3
+      _offsetFromLayerDefault: {x: 0, y: 0, z: -40}
+      _requiredPerformanceLevel: 0
+      _useCommonMaterial: 1
+      _commonMaterialTintColor: {r: 0.56078434, g: 0.89411765, b: 1, a: 0}
+    - Name: Mid
+      SingleObjectPrefabs: []
+      SkylineFillObjectPrefabs:
+      - {fileID: 114703437598541787, guid: 70d1048a109cb134ab2f8182cee34ccf, type: 2}
+      _dontRandomizeSingleObjectSpawnPosition: 0
+      _speed: 0.5
+      LayerIndex: 4
+      _offsetFromLayerDefault: {x: 0, y: 0, z: -40}
+      _requiredPerformanceLevel: 0
+      _useCommonMaterial: 1
+      _commonMaterialTintColor: {r: 0.38823533, g: 0.8235294, b: 1, a: 0}
+    - Name: Front
+      SingleObjectPrefabs:
+      - {fileID: 114703437598541787, guid: 26a9b0af43e56984ba296f87fa6bdac9, type: 2}
+      - {fileID: 114703437598541787, guid: 98bde95b20cc5a54b8dfd677c7567852, type: 2}
+      SkylineFillObjectPrefabs: []
+      _dontRandomizeSingleObjectSpawnPosition: 0
+      _speed: 0.65
+      LayerIndex: 5
+      _offsetFromLayerDefault: {x: 0, y: 0, z: -40}
+      _requiredPerformanceLevel: 0
+      _useCommonMaterial: 1
+      _commonMaterialTintColor: {r: 0.32156864, g: 0.78039217, b: 0.9333334, a: 0}
+    - Name: Sun
+      SingleObjectPrefabs:
+      - {fileID: 114703437598541787, guid: 074ca0111dbfdb04baa22773b0c45e26, type: 2}
+      SkylineFillObjectPrefabs: []
+      _dontRandomizeSingleObjectSpawnPosition: 0
+      _speed: 0
+      LayerIndex: 1
+      _offsetFromLayerDefault: {x: -210, y: 150, z: -50}
+      _requiredPerformanceLevel: 0
+      _useCommonMaterial: 0
+      _commonMaterialTintColor: {r: 0.32156864, g: 0.6039216, b: 0.9333334, a: 0}
+    GradientTop: 480
+    GradientBottom: -2
+    GradientTopColor: {r: 0.07450981, g: 0.83137256, b: 1, a: 0}
+    GradientBottomColor: {r: 0.85098046, g: 0.98823535, b: 1, a: 0}
+    Culling: []
+    BackgroundCullingColor: {r: 1, g: 1, b: 1, a: 1}
+  _distantObjectGlobalConfig:
+    _globalMinDistanceFirstSpawn: 0
+    _globalMinDistanceBetween: 0
+  _distantObjectConfigs: []
+  _environmentTransitionConfigs:
+  - _environmentKind:
+      _type: 2
+      _density: 0
+    _transitionStart:
+      _weightedPrefabs:
+      - _name: 1.105_Miami_event_06
+        Weight: 1
+        Prefab: {fileID: 4730242686860875, guid: 274cdc37fcd84824c9fa9e0f492aedbd, type: 2}
+      ExcludeEnvironments: []
+      SpawnProbability: 1
+    _transitionEnd:
+      _weightedPrefabs:
+      - _name: 1.105_Miami_event_07
+        Weight: 1
+        Prefab: {fileID: 4730242686860875, guid: a4c804c894a918f43aa4330b811fb4bb, type: 2}
+      ExcludeEnvironments: []
+      SpawnProbability: 1
+  _fogColor: {r: 0.427451, g: 0.85882354, b: 1, a: 0}
+  _fogStartDistance: 540
+  _fogEndDistance: 784
+  _backgroundStartDistance: 1000
+  _distantFogStartDistance: -500
+  _distantFogEndDistance: 1199
+  _distantBackgroundStartDistance: 1050
+  _glowGoldColor: {r: 0.43137258, g: 0.28235295, b: 0, a: 0}
+  _glowGold: {fileID: 2100000, guid: 8c51744993b7ff2498a4a2a54ce0a713, type: 2}
+  _glowGoldFalloff: 200
+  _effects: []
+  _roofedCullingEnabled: 0
+  _roofedCullingEnvironmentsHigh:
+  _roofedCullingEnvironmentsLow:
+  _roofedCullingEnvironmentsCustom: []
+  _rollImpactRockColor: {r: 0.5803922, g: 0.53333336, b: 0.43529415, a: 1}
+  _rollImpactDustColorMin: {r: 0.4039216, g: 0.3372549, b: 0.21176472, a: 1}
+  _rollImpactDustColorMax: {r: 0.5058824, g: 0.43529415, b: 0.2901961, a: 1}
+  _devicePerformanceRelativeMaterials:
+  - Name: environment_glass
+    HighPerformance: {fileID: 2100000, guid: d5437667ff053084892c8a536b44f190, type: 2}
+    MediumPerformance: {fileID: 2100000, guid: 42d8532f9d5b2a645863764eda74d8f4, type: 2}
+    LowPerformance: {fileID: 2100000, guid: 42d8532f9d5b2a645863764eda74d8f4, type: 2}
+  - Name: environment_metal
+    HighPerformance: {fileID: 2100000, guid: e21fbc31a72887f489c2fb9d149f038f, type: 2}
+    MediumPerformance: {fileID: 2100000, guid: 42d8532f9d5b2a645863764eda74d8f4, type: 2}
+    LowPerformance: {fileID: 2100000, guid: 42d8532f9d5b2a645863764eda74d8f4, type: 2}
+  - Name: train_glass
+    HighPerformance: {fileID: 2100000, guid: 1ecd86be97884bb47bcd8490861b36af, type: 2}
+    MediumPerformance: {fileID: 2100000, guid: a4b3ccbedc3c0be40a0e4baa0064db3b, type: 2}
+    LowPerformance: {fileID: 2100000, guid: a4b3ccbedc3c0be40a0e4baa0064db3b, type: 2}
+  - Name: train_light
+    HighPerformance: {fileID: 2100000, guid: 52656cc60c7f11a4fbcc956894203d6e, type: 2}
+    MediumPerformance: {fileID: 2100000, guid: a4b3ccbedc3c0be40a0e4baa0064db3b, type: 2}
+    LowPerformance: {fileID: 2100000, guid: a4b3ccbedc3c0be40a0e4baa0064db3b, type: 2}
+  - Name: train
+    HighPerformance: {fileID: 2100000, guid: 9f0ead7c11970e246ad11b73ed109f67, type: 2}
+    MediumPerformance: {fileID: 2100000, guid: a4b3ccbedc3c0be40a0e4baa0064db3b, type: 2}
+    LowPerformance: {fileID: 2100000, guid: a4b3ccbedc3c0be40a0e4baa0064db3b, type: 2}
+  _prefabMappingsGeneric:
+  - Name: Fillers
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: e392350c473e16d4d8a59c3d9c63fe62, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: c4cf8f034b0a7414282b53950db87984, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 0e9be135a8843c040994885bee76b776, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: fe87e058038706e418b433d65d46210f, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 8e3fe23279d6f554ca074a975f1ece20, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: f5b67c16b91c4fb45826feff03b11ddd, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 6cdc6985bbd1c39429fbe7cc89af8c32, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b6be14deec4fe744a9f159d3a339fb1a, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: e66d3814ae6c9ee438b57be6f50282b3, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: eff9a0cf7dc87204fa12590084f08eaf, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 99b5290f02fb92d448fd943b9fff7238, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 1b92d9e823163754aa637ec300e019d0, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 418c0bec16bdaea47bb4c4adc626abca, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 347b3cdb7e0a95c49a804cc2d4422d4a, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: b4bcc6799ee9c1f4db4f80abe6b8fe15, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 4004c09294cb555448ebe2a74bf26cdb, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 019af93e30d28b64e91e30bf37015b6a, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: fd400b615dd913d489ec638d0d5b6a54, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 8d8918ce2f736ac4dbdff48d03f01fab, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 65958782558608b4e98b4cd54eabd7a5, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: d69e4dc7b93618242bfa984431823c67, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 8332bd85bc79bfd4991c27712a53062c, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: eed7fe138840c124295ab7bec3cb93bb, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: fc77dca42c653a249961266b7045cd8a, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 397572c0ba48f5d4caee3b52dfc3aee7, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 7d2e4235a805fc34ca7288d2c80b213b, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: bd21b32991ca2da499f01b9903f6abee, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: e9d0b66cd0cf0f248a2891dac597782a, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: e7260b949573b85488bc01ff04a2de81, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: ab062938ff9014747afe4decae72a430, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 9a38810f98755c741a292c124aab7b60, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 01b7a455acf893342bf5a5a184595a50, type: 2}
+  - Name:
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: e05b9f03cbac7654d998fd5dd40a2cbc, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: f5bc0b0edb9f10f4e8af77e08ebfb111, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 8cfb3f388fbfaf841b22a1a3af4a5456, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 5c354a0dca3881243ac30ae49195ce7f, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 84ba5557b75a1f04899fe5c1f14dc531, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 3fb2f5c57146da8438d83d6b6e990357, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: dfcdd438e110b64489d8061db10da17d, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 8de3c8cc0b30c394283ea781dd27b369, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 11a0f2b7fea761f49b294de46000df1b, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b0bbb8882ecf74d4ab0359362a6c46e1, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: a2dfefd15edc01a43bf14f72f64384cb, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 91a147e953a59294fa7486267550d954, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 1496eff91a7dfe542b81dccf8d4b8aa9, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: f1eb4c14b44551d45836d318b97e924d, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 11b72ba849aa89842bd71c6e90f9891e, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 1ae99a0ef26a43842b8cb7001df7324f, type: 2}
+  - Name: Extras
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: 40f93e015ec514547b0359a21c3b0707, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: cd7f2a4eb28e5a54c83d4ce82c4615ab, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 4e5c4a139e4deab4aaf92e42b799c66d, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 59568ea2706cef44a90ed60b1aa045da, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 2f1d84ce475213d498b53d86ff86698d, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: a01313f5d237d1040878504b8de1ec92, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 2ec9e17cd354a3141b744e8a9f6dc625, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: e4ef7070f62018a44bdc5b5d3930f416, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 246ba841a6db5c44791b0a66bddf2191, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: a22e42dedd77a22469d4e257b40d7499, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: f6d70638fde7dab40aefee040e7fda10, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b341a9517dac04c4b86a7df544b4c9d2, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 1e71d24581d4caa4da3aef6b2dcaacf1, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: ce9077817632fba46a86fe696f9c9f1d, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 446c3369aae5595419ebf4e40ed90fa9, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 41f35ad6ba6bafd448aacb7c1c8e1f55, type: 2}
+  - Name: Obstacles
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: afe111cc926d85f4b821c3d12bc63f7f, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 635a7fd2df0a02548877d8327aea6f85, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 29319bf44c4e9094f8899ea6cb39e389, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: c3395fb78906ad449a7b3055c0b5856f, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 30f18a3cab4895c49a678cd1cb475946, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: cbbf95e4f7a659c45a8adbbd68463d04, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 502c2b143e8b0ef4ebd49b8e8fcaf6ac, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 80cd28e5c1b7b864abf4ca90b3d4ae12, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 75fabedb23eca74419e2e64c4e8205f9, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: af4a50eeca64b824eac45dfd6979031e, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 06fd537cdd814274e9376a55b0607744, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 59e1ec42f74d62544a2144637bb09c64, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: ef50cf7e310282541b80290aaa1cad49, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 1dfe73a15ef0ee24dbaa45fa423bd44d, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: d7b2362758325364992fec1bdefff1f2, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 1b2fc045882b00e4cbe191f3a2ea8b8c, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 4154ec2ae05fdf04298870038cf4756d, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: e92323a1117e6a44191db613016053ba, type: 2}
+  - Name: Hunttoken
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: bd0f5acfd9c1f454d9980866c16352ff, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: cb82f952abe96324bbc897070747393a, type: 2}
+  - Name: Specials
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: f7adb1b24e1263c41a2906e681cdc522, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 7f509c472aa5a4a46b32eb1ac01e62b3, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 9989bcc782ac5984b92858cabc506c9f, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: ff20ace8d0dce2844b2f7ebfdd8f6b4b, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: bea4e1f37f9514043aea0d739ad916be, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 5b74547489c3c214687c687d9f8ec33b, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 3275c4c22ac78d94087a25916316d0df, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 3e73a99e1cbecac4cb03619c08c2941c, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 718149dd5b755b14683478ea0fff7f9b, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: fa2c07e68f610fe4d8ac31165024f6bf, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 45c5bdd2da3baa6488af3bf0f8db808e, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 427859c3214eb2a49a0a2e47c0cfec92, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 342b79cedec86374694122d98c9f8369, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: d4fbbb0e95ccdbb4ab8bb585da3eec2f, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 720ba0c38b1d2594cbeca24327357710, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 2ce6929b2fc448446b7ad4ba183e114c, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: b4843cf46d1f98c4a90eb965e3b9200a, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 7f509c472aa5a4a46b32eb1ac01e62b3, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 1281b635856efdf48afc9b0843b570e3, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: ff20ace8d0dce2844b2f7ebfdd8f6b4b, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: ef9ce0cfb6cb6d24cb9055d76cff5bbd, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 5b74547489c3c214687c687d9f8ec33b, type: 2}
+  - Name: Tracks
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: 174dbe76440f6bf4aad8bf885f5e1ac9, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 75a165ddc5d39f748bcc275cc65c4560, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: fee10a3316df1a749b2b556d3830c3cd, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 16a055d4ed2785b4aa11e065742c0ef7, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 20a0d4dab60ffab4d9e6d5152977af80, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 85e94adb76829b9448f1b4dfacb9f52d, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 863446e58de43c84699a32efb5ddbb37, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b2e6b31a37b06bc4ea378bc78b2647a9, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 4934fdfce6dc45043aab7670626140fe, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: c00f7e271e2a317429d419c9c0609d04, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: be61a7cbf50b07f43a5272261c4ab5e9, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: c0e2fdb76a6abf44ab851950a3064c8a, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 723c5a40fdb2fbc4f9849c70fda94450, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b46ac3c628db10a4db64366146544a04, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: bc70f41328dc3ec478a88d7a3e61d21e, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: c0a11463aaf0f39448ed104cc9fc687e, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: d77f217010772604398b0daddb9b99a9, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: cbb07391261684348abf341a7e8c4278, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 987f7fd381bf5384ba33fc00927eb29c, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 1a4bc7b432d0e734fa06ef0689d0cd4d, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 4c60f732486558240bfd1ec46d539434, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: de522d5856594c249861e26ce5de868c, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: d65a4c27ae4efe3428e0bcd191617be1, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: e27fd154c05959c41a169f115ba36ca9, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 6fb4704aea42d594ca46b4e356013370, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 46a1d4b4fabe7754badb3370d938f4d2, type: 2}
+  - Name: Tunnels
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: d7dbcc8eb49e9ce43ab0cd448d63e5db, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: a735fe6afa8fec04dba4f8c8425a95cd, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 77e9bfdecf4e8de47abed58fcc2b7a9d, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: bffceea7b8c27214d8dc69ed478c9fcd, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: c5ca467a6fa3bfe4bb2685edb5f91d42, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b551f37eaff0a20468e4643afcc15696, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: e305df4fee2328d4aa2991ec2b871b2f, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: bce30230942dffa4f9f28c469fbe8e9b, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 469f0f4c572977d41a1cc5b3b208b6ec, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: a07df4dc92e3b5f429c9bf6ace883ad2, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 6c31ca40c8d8eea46bd13cbaf5bb4c0d, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b7d06fcdeb7600f49bb04942172f0844, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: ddf8a553efe34ab4fb6cbba44379a8c0, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 10455be2b30340649b1a1461979ac61e, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 661a454d8a4106349a9a46ce24865643, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: a79dfa966d8b3c545a1c22a766669bbd, type: 2}
+  - Name: Events
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: ac88e373610485d478c2f925ebc4cf99, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: b710a360dba2c3841b2341de56e0a16d, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 26076114bd57be74b8deec8b8059136d, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 60f6792e05336ca4da3978aa74183ab6, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 1d99b59138278354d98dab972842c1ef, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 5f8d985be4d08ff4ba81c2a082372e78, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 6d8c605731f17724ea768cc956b77ee5, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 5c57069f44527ca499c0b98c41dcaaa6, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: b88327da3faea1048b2137ccff39cadc, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 38a1989df4e7d874eb24770a025b21e1, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: c3188a71232de7b41905a40c956a9721, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 274cdc37fcd84824c9fa9e0f492aedbd, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 37988ac42d0b6de429c7164d5c409089, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: a4c804c894a918f43aa4330b811fb4bb, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: fccd4171545299a418dc4488f91473c3, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 3cf5205599e9a024ba6d14b6711adc6c, type: 2}
+  - Name:
+    PrefabMappings:
+    - GenericPrefab: {fileID: 1709254077376921, guid: fd1876f238d51614eba911fab87f40a4, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: f99ce658cb3df104480b24bda65fe868, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: cf2c6900f9b0aff46995c8539bf5eb5f, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: 2e9ce5782b22ab24c93ac3223e305db1, type: 2}
+    - GenericPrefab: {fileID: 1709254077376921, guid: 1a030cbeeb52a834fa048c6d25cb7019, type: 2}
+      ThemePrefab: {fileID: 1709254077376921, guid: ea97c41649ad023489c1f0b6065b1d30, type: 2}
+  _routeEnvironmentModelAssets:
+  - RouteCategory: 0
+    EnvironmentAssets:
+    - Name: Fillers Low
+      Environment:
+        _type: 1
+        _density: 1
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4730242686860875, guid: 1b92d9e823163754aa637ec300e019d0, type: 2}
+          Right: {fileID: 4587765826080250, guid: 347b3cdb7e0a95c49a804cc2d4422d4a, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4730242686860875, guid: 4004c09294cb555448ebe2a74bf26cdb, type: 2}
+          Right: {fileID: 4587765826080250, guid: fd400b615dd913d489ec638d0d5b6a54, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+    - Name: Fillers Medium
+      Environment:
+        _type: 1
+        _density: 2
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4618682377417806, guid: 65958782558608b4e98b4cd54eabd7a5, type: 2}
+          Right: {fileID: 4884547391421755, guid: 8332bd85bc79bfd4991c27712a53062c, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4724804207875695, guid: fc77dca42c653a249961266b7045cd8a, type: 2}
+          Right: {fileID: 4703437598541787, guid: 7d2e4235a805fc34ca7288d2c80b213b, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4724804207875695, guid: e9d0b66cd0cf0f248a2891dac597782a, type: 2}
+          Right: {fileID: 4724804207875695, guid: ab062938ff9014747afe4decae72a430, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+    - Name: Fillers High
+      Environment:
+        _type: 1
+        _density: 4
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4724804207875695, guid: c4cf8f034b0a7414282b53950db87984, type: 2}
+          Right: {fileID: 4724804207875695, guid: 01b7a455acf893342bf5a5a184595a50, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4724804207875695, guid: fe87e058038706e418b433d65d46210f, type: 2}
+          Right: {fileID: 4703437598541787, guid: f5b67c16b91c4fb45826feff03b11ddd, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 4730242686860875, guid: b6be14deec4fe744a9f159d3a339fb1a, type: 2}
+          Right: {fileID: 4618682377417806, guid: eff9a0cf7dc87204fa12590084f08eaf, type: 2}
+          Joint: {fileID: 0}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+    - Name: Tube Default
+      Environment:
+        _type: 2
+        _density: 0
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4470112387431263, guid: a79dfa966d8b3c545a1c22a766669bbd, type: 2}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+    - Name: Pillars Default
+      Environment:
+        _type: 4
+        _density: 0
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4724804207875695, guid: b551f37eaff0a20468e4643afcc15696, type: 2}
+        Mid:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4703437598541787, guid: bffceea7b8c27214d8dc69ed478c9fcd, type: 2}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4730242686860875, guid: a735fe6afa8fec04dba4f8c8425a95cd, type: 2}
+    - Name: Gates Default
+      Environment:
+        _type: 8
+        _density: 0
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+        Mid:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4724804207875695, guid: 3e73a99e1cbecac4cb03619c08c2941c, type: 2}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 0}
+    - Name: Station Default
+      Environment:
+        _type: 16
+        _density: 0
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4618682377417806, guid: 10455be2b30340649b1a1461979ac61e, type: 2}
+        Mid:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4703437598541787, guid: a07df4dc92e3b5f429c9bf6ace883ad2, type: 2}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4618682377417806, guid: bce30230942dffa4f9f28c469fbe8e9b, type: 2}
+    - Name: Epic Default
+      Environment:
+        _type: 32
+        _density: 0
+      SequenceVariations:
+      - Start:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4724804207875695, guid: 5b74547489c3c214687c687d9f8ec33b, type: 2}
+        Mid:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4709867586078768, guid: ff20ace8d0dce2844b2f7ebfdd8f6b4b, type: 2}
+        End:
+          Left: {fileID: 0}
+          Right: {fileID: 0}
+          Joint: {fileID: 4884547391421755, guid: 7f509c472aa5a4a46b32eb1ac01e62b3, type: 2}
+  _groundAssets:
+    Ground: {fileID: 4730242686860875, guid: 75a165ddc5d39f748bcc275cc65c4560, type: 2}
+    GroundShadowMid: {fileID: 4730242686860875, guid: 16a055d4ed2785b4aa11e065742c0ef7, type: 2}
+    GroundShortShadowStart: {fileID: 4730242686860875, guid: e27fd154c05959c41a169f115ba36ca9, type: 2}
+    GroundShortShadowEnd: {fileID: 4730242686860875, guid: 46a1d4b4fabe7754badb3370d938f4d2, type: 2}
+    Track: {fileID: 4730242686860875, guid: 85e94adb76829b9448f1b4dfacb9f52d, type: 2}
+    TrackShadowStart: {fileID: 4730242686860875, guid: c0e2fdb76a6abf44ab851950a3064c8a, type: 2}
+    TrackShadowMid: {fileID: 4730242686860875, guid: c00f7e271e2a317429d419c9c0609d04, type: 2}
+    TrackShadowEnd: {fileID: 4730242686860875, guid: b2e6b31a37b06bc4ea378bc78b2647a9, type: 2}
+    TrackShortShadowStart: {fileID: 4730242686860875, guid: 1a4bc7b432d0e734fa06ef0689d0cd4d, type: 2}
+    TrackShortShadowEnd: {fileID: 4730242686860875, guid: de522d5856594c249861e26ce5de868c, type: 2}
+    TracksGates: {fileID: 4730242686860875, guid: c0a11463aaf0f39448ed104cc9fc687e, type: 2}
+    TracksGatesShadow: {fileID: 4730242686860875, guid: cbb07391261684348abf341a7e8c4278, type: 2}
+    TracksSpecial: {fileID: 4730242686860875, guid: b46ac3c628db10a4db64366146544a04, type: 2}
+  _baseIgnoredEnvironmentKinds: []
+  _gameMusic: {fileID: 8300000, guid: 1db07b6a9a245ba4fa4dadf4a6fca603, type: 3}
+  _themePreloadSettings: []

@@ -1,0 +1,138 @@
+# Scores are obtained from https://gfxbench.com/result.jsp
+# Select T-Rex test, find the GPU in the righthand side. Select Group by GPU.
+
+# Note: 
+  # Many -mali- GPUs have different versions, they are maked with an -mp#- ending.
+  # Each version of the GPU has its own benchmark score (see malit880mp4 vs malit880mp2), but in most cases the GPU name is reported by the system without the -mp#- ending.
+  # As a result in most cases the score of the version with no -mp#- will be used for all versions.
+  # The only known exceptions from the above are mali400 which is also reported as an mp2 and mali450 which is also reported as an mp4.
+
+
+# Qualcomm Adreno
+adreno640 3400
+adreno630 3349
+adreno540 3336
+adreno530 3148
+adreno512 2722
+adreno430 2194
+adreno510 1691
+adreno418 1570
+adreno508 1481
+adreno420 1472
+adreno330 1353
+adreno506 1222
+adreno505 931
+adreno320 890
+adreno405 840
+adreno308 758
+adreno305 597
+adreno304 546
+adreno306 534
+adreno225 444
+adreno220 281
+adreno203 204
+adreno205 145
+adreno200 48
+
+# ARM Mali
+malig76 3400
+malig72 3005
+malig71 3005
+malit880mp12 2859
+malit760mp8 1996
+malit880mp4 1756
+malit880 1307
+malit760mp6 1279
+malit880mp2 1203
+malit720 1167
+malit628mp6 1078
+malit764 1061
+malit830 1045
+mali450mp6 1028
+malit760 1026
+malit860 1019
+malit624mp4quadcore 970
+malit628 875
+malit628mp2 856
+malit820 840
+malit622 840
+malit624mp2 823
+mali450mp4quadcore 751
+malit604mp4 636
+malit624 603
+mali450mp4 570
+mali450mp 557
+mali400mp 440
+mali400mp2dualcore 392
+malit604 354
+mali450mpsinglecore 260
+mali400mpsinglecore 253
+mali400mp2 217
+mali400mp4quadcore 207
+nvidiacorporationmali 184
+mali300 158
+
+# Broadcom Videocore
+videocore520 646
+videocore530 632
+videocore510 584
+videocoreiv 332
+videocore435 253
+
+# NVIDIA Tegra
+tegrax2 2765
+tegrax1 2765
+tegrak1 2219
+tegra4i 1021
+tegra4 936
+tegra3 282
+corporationtegra 77
+tegra2 136
+
+# ImgTech PowerVR
+powervrrougemarlowe 2827
+powervrroguegx6650 2481
+powervrroguehood 1578
+powervrrogueg6430 1496
+powervrroguegx6250 1125
+powervrrogueg6200 1022
+powervrroguehan 924
+powervrrogueg6230 879
+powervrrogueg6400 842
+powervrroguege8300 808
+powervrsgx544mp3 665
+powervrrogueg6110 647
+powervrsgx544mp2 573
+powervrsgx544mp 445
+powervrsgx543mp2 345
+powervrsgx544mpsinglecore 271
+powervrsgx543mp 270
+powervrsgx540 172
+powervrsgx531 59
+powervrsgx530 47
+
+# Vivante
+vivantegc7000xsvx 1665
+vivantegc2000+ 1135
+vivantegc5000 949
+vivantegc7000xs 943
+vivantegc7000ul 820
+vivantepxa1928 814
+vivantegc5200 734
+vivantegc3000 685
+vivantegc7000l 682
+vivantegc4000u 630
+gc4000core 615
+gc1000core 314
+vivantegc2000 192
+gc2000core 192
+vivantegc1000 155
+vivantegc400 89
+gc880core 82
+gc800core 3
+
+# Intel BayTrail
+baytrail 1292
+
+# Hisilicon Technologies
+immersion16 392

@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 555605895c9ef4e68c6daeae4617ad8a, type: 3}
+  m_Name: IngameShopItems
+  m_EditorClassIdentifier:
+  _fillerCharacterTokens:
+    nameStringID:
+    descriptionStringID:
+    mysteryBoxDescriptionStringID:
+    _prices: 0f000000
+    _payoutAmounts: 19000000
+    priceType: 5
+    iconNameMenu:
+    weight: 0
+  _fillerSuperMysteryBox:
+    nameStringID:
+    descriptionStringID:
+    mysteryBoxDescriptionStringID:
+    _prices: 0600000008000000
+    _payoutAmounts: 0200000003000000
+    priceType: 5
+    iconNameMenu:
+    weight: 0

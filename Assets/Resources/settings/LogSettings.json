@@ -1,0 +1,154 @@
+{
+	"Categories":{
+		"Analytics":{
+			"categoryClassName":"AnalyticsLogCategory",
+			"categoryText":"Analytics",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Analytics - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"BuildSizeMonitor":{
+			"categoryClassName":"BuildSizeMonitorLogCategory",
+			"categoryText":"BuildSizeMonitor",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"BuildSizeMonitor - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"ComponentsManager":{
+			"categoryClassName":"ComponentsManagerLogCategory",
+			"categoryText":"ComponentsManager",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"ComponentsManager - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Compression":{
+			"categoryClassName":"CompressionLogCategory",
+			"categoryText":"Compression",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Compression - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Crypt":{
+			"categoryClassName":"CryptLogCategory",
+			"categoryText":"Crypt",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Crypt - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Default":{
+			"categoryClassName":"LogDefault",
+			"categoryText":"Default",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Default - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"EditorExtensions":{
+			"categoryClassName":"EditorExtensionsLogCategory",
+			"categoryText":"EditorExtensions",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"EditorExtensions - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Json":{
+			"categoryClassName":"JsonLogCategory",
+			"categoryText":"Json",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Json - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Log":{
+			"categoryClassName":"LogSystemLogCategory",
+			"categoryText":"Log",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Log - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Native":{
+			"categoryClassName":"NativeLogCategory",
+			"categoryText":"Native",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Native - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Pool":{
+			"categoryClassName":"PoolManagerLogCategory",
+			"categoryText":"Pool",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Pool - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Settings":{
+			"categoryClassName":"SettingsLogCategory",
+			"categoryText":"Settings",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Settings - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Singletons":{
+			"categoryClassName":"SingletonsLogCategory",
+			"categoryText":"Singletons",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Singletons - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		},
+		"Utilities":{
+			"categoryClassName":"UtilitiesCategory",
+			"categoryText":"Utilities",
+			"hasInitializedMessagePrefix":true,
+			"hideStackLevel":0,
+			"logLevel":0,
+			"messagePrefix":"Utilities - ",
+			"pauseOnError":false,
+			"pauseOnWarning":false
+		}
+	},
+	"ClearOnNewSceneLoaded":false,
+	"Ftp":{
+		"FtpBuffers":3,
+		"Password":"brimlogsync",
+		"StoreLogsFtpUri":"ftp://ftp.sybogames.com/Logs/Brim/{0}/{1}",
+		"StoreLogsWithFtp":true,
+		"Username":"brimlogsync"
+	},
+	"LogsPathWin":"\\\\sybonas.sybogames.local\\Logs\\Brim\\UnityLogs\\{0}",
+	"MemoryBudget":0.10000000149011612
+}

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13e1c33d7df02f04ddf81fbb17e92221, type: 3}
+  m_Name: ExtraCharacter3
+  m_EditorClassIdentifier:
+  enabled: 1
+  cellAppearancePayload:
+    fillTopColor: {r: 1, g: 0.4509804, b: 0.6784314, a: 1}
+    fillBottomColor: {r: 1, g: 0.6862745, b: 0.79607844, a: 1}
+    titleColor: {r: 0.5019608, g: 0.1254902, b: 0.28235295, a: 1}
+    titleEffectColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    subtitleColor: {r: 0, g: 0, b: 0, a: 1}
+    subtitleEffectColor: {r: 1, g: 1, b: 1, a: 0.5019608}
+    boardThemeColor: {r: 0, g: 0, b: 0, a: 1}
+    boardThemeEffectColor: {r: 1, g: 1, b: 1, a: 1}
+    bannerColorTop: {r: 1, g: 1, b: 1, a: 1}
+    bannerColorBottom: {r: 1, g: 1, b: 1, a: 1}
+    bannerTextColor: {r: 1, g: 1, b: 1, a: 1}
+    canBeWide: 0
+    buttonAction: 2
+    popupID:
+    cellPriority: 4
+  useCharacter: 1
+  isBoardBundle: 0
+  character:
+    position: {x: 5, y: -185, z: 0}
+    rotation: {x: 0, y: -170, z: 0}
+    scale: {x: 25, y: 25, z: 25}
+    useWideCellSettings: 0
+    secondaryPosition: {x: 0, y: 0, z: 0}
+    secondaryRotation: {x: 0, y: 0, z: 0}
+    secondaryScale: {x: 0, y: 0, z: 0}
+    charID: 52
+    charOutfitIndex: 0
+    animationClip: {fileID: 7400000, guid: d8791b44f2043e24f90a01163e76d768, type: 2}
+  board:
+    position: {x: 5, y: -10, z: 0}
+    rotation: {x: 15, y: 125, z: -60}
+    scale: {x: 12, y: 12, z: 12}
+    useWideCellSettings: 0
+    secondaryPosition: {x: 0, y: 0, z: 0}
+    secondaryRotation: {x: 0, y: 180, z: 0}
+    secondaryScale: {x: 15, y: 15, z: 15}
+    boardID: 66
+    animationClip: {fileID: 7400000, guid: 2f1e1476c432343479a76156f6550a3c, type: 2}

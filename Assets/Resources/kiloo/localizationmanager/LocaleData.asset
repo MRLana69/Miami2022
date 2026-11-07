@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc3bdf9dc400cddb571904b5bb64688, type: 3}
+  m_Name: LocaleData
+  m_EditorClassIdentifier:
+  _locales:
+  - nativeName: English
+    isEnabled: 1
+    language: en
+    region: US
+    extraRegions: []
+  - nativeName: Português (Brasil)
+    isEnabled: 1
+    language: pt
+    region: BR
+    extraRegions: []
+  - nativeName: Español (Latinoamérica)
+    isEnabled: 1
+    language: es
+    region: MX
+    extraRegions:
+    - AR
+    - BO
+    - CL
+    - CO
+    - CR
+    - CU
+    - DO
+    - EC
+    - SV
+    - GT
+    - HN
+    - NI
+    - PA
+    - PY
+    - PE
+    - PR
+    - US
+    - UY
+    - VE
+    - 419
+  - nativeName: Deutsch
+    isEnabled: 1
+    language: de
+    region: DE
+    extraRegions:
+    - AT
+    - CH
+  - nativeName: Français
+    isEnabled: 1
+    language: fr
+    region: FR
+    extraRegions:
+    - BE
+    - CA
+    - CH
+  - nativeName: 中文（简体）
+    isEnabled: 1
+    language: zh
+    region: CN
+    extraRegions:
+    - SG

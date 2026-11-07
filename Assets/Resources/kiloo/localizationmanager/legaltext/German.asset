@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3729d31dbb62fc5fa1c1acf9261527f2, type: 3}
+  m_Name: German
+  m_EditorClassIdentifier:
+  id: German
+  _localeId: de-DE
+  affectedLocales:
+  - de-AT
+  - de-CH
+  - de-DE
+  - de-LI
+  - de-LU
+  _pasteLocaleList:
+  _pasteTermValues:
+  terms:
+  - key: AgeRestrictionTitle
+    value: "Wann wurdest du geboren?\r"
+  - key: AgeRestrictionOk
+    value: "OK\r"
+  - key: ConsentAffirmation
+    value: "Ich stimme hiermit zu, dass Kiloo die Werbe-ID meines Geräts an Werbenetzwerkunternehmen (siehe unten) weitergeben darf, um mir im Spiel zielgerichtete Werbung zu zeigen, die meinen persönlichen Präferenzen entspricht.\r"
+  - key: ConsentDetails
+    value: "Durch das Markieren des obigen Feldes erkenne ich an, dass ich meine Zustimmung jederzeit in den Einstellungen des Spiels rückgängig machen kann, und dass ich weitere Informationen über die Verarbeitung meiner Daten durch Kiloo sowie die Identität der Werbenetzwerkunternehmen in {0}Kiloos Datenschutzrichtlinien{1} finden kann.\r"
+  - key: ConsentAcceptUnchecked
+    value: "ICH STIMME ZU\r"
+  - key: ConsentAcceptChecked
+    value: "ANGENOMMEN\r"
+  - key: ConsentOK
+    value: "OK\r"
+  - key: WithdrawConsentTitle
+    value: "Zustimmung zurücknehmen?\r"
+  - key: WithdrawConsentBody
+    value: "Du stimmst gegenwärtig zu, dass Kiloo zu Marketingzwecken im Spiel die Werbe-ID deines Geräts an Werbenetzwerkunternehmen zum Anzeigen zielgerichteter Werbung im Spiel, basierend auf deinen persönlichen Präferenzen, weitergeben darf.\r"
+  - key: WithdrawConsentRequirement
+    value: "Bitte nimm zur Kenntnis, dass du deine Nutzerlizenz zur Verwendung der App automatisch verlierst, wenn du deine Zustimmung zurücknimmst.\r"
+  - key: WithdrawConsentVerification
+    value: "Bist du dir sicher, dass du deine Zustimmung zurücknehmen willst?\r"
+  - key: WithdrawConsentYes
+    value: "Ja\r"
+  - key: WithdrawConsentNo
+    value: Nein

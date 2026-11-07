@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c6c0ced3d2e54f83519c75aa64e513, type: 3}
+  m_Name: LegalTextData
+  m_EditorClassIdentifier:
+  termKeys: {fileID: 11400000, guid: 779c8632ed1ae484e9124763bb762a92, type: 2}
+  _fallbackLanguage: {fileID: 11400000, guid: d12795d2ed6fe4c43a9ba17f96320a96, type: 2}
+  legalLanguages:
+  - {fileID: 11400000, guid: 8ea8778696ede9d4fa4fdc809abc6c4e, type: 2}
+  - {fileID: 11400000, guid: b8e3a71068b29274b859d56697b47994, type: 2}
+  - {fileID: 11400000, guid: 265229a4781a75d499bcbc4055cbed54, type: 2}
+  - {fileID: 11400000, guid: b3f7695939d15674283892a28f2f5701, type: 2}
+  - {fileID: 11400000, guid: 1606edc8bc503ff499d5e44133365d07, type: 2}
+  - {fileID: 11400000, guid: c8528a81ba7c5e244953e0e2fd07162d, type: 2}
